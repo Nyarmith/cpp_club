@@ -1,0 +1,1308 @@
+{
+    "__type__": "Deck", 
+    "children": [], 
+    "crowdanki_uuid": "1421e040-9f3a-11e7-aa6f-704d7b26e6b3", 
+    "deck_config_uuid": "1421e041-9f3a-11e7-aa6f-704d7b26e6b3", 
+    "deck_configurations": [
+        {
+            "__type__": "DeckConfig", 
+            "autoplay": true, 
+            "crowdanki_uuid": "1421e041-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "dyn": false, 
+            "lapse": {
+                "delays": [
+                    10
+                ], 
+                "leechAction": 0, 
+                "leechFails": 8, 
+                "minInt": 1, 
+                "mult": 0.0
+            }, 
+            "maxTaken": 60, 
+            "name": "Default", 
+            "new": {
+                "bury": true, 
+                "delays": [
+                    1, 
+                    10
+                ], 
+                "initialFactor": 2500, 
+                "ints": [
+                    1, 
+                    4, 
+                    7
+                ], 
+                "order": 0, 
+                "perDay": 15, 
+                "separate": true
+            }, 
+            "replayq": true, 
+            "rev": {
+                "bury": true, 
+                "ease4": 1.3, 
+                "fuzz": 0.05, 
+                "ivlFct": 1.0, 
+                "maxIvl": 36500, 
+                "minSpace": 1, 
+                "perDay": 25
+            }, 
+            "timer": 0
+        }
+    ], 
+    "desc": "", 
+    "dyn": 0, 
+    "extendNew": 10, 
+    "extendRev": 50, 
+    "media_files": [], 
+    "name": "Accelerated C++", 
+    "note_models": [
+        {
+            "__type__": "NoteModel", 
+            "crowdanki_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "css": ".card {\n font-family: arial;\n font-size: 20px;\n text-align: center;\n color: black;\n background-color: white;\n}\n\n.card1 { background-color: #FFFFFF; }\n\n#test {\n// color: red;\n}", 
+            "flds": [
+                {
+                    "font": "Liberation Sans", 
+                    "media": [], 
+                    "name": "Front", 
+                    "ord": 0, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }, 
+                {
+                    "font": "Arial", 
+                    "media": [], 
+                    "name": "Back", 
+                    "ord": 1, 
+                    "rtl": false, 
+                    "size": 12, 
+                    "sticky": false
+                }
+            ], 
+            "latexPost": "\\end{document}", 
+            "latexPre": "\\documentclass[12pt]{article}\n\\special{papersize=3in,5in}\n\\usepackage{amssymb,amsmath}\n\\pagestyle{empty}\n\\setlength{\\parindent}{0in}\n\\begin{document}\n", 
+            "name": "Basic", 
+            "req": [
+                [
+                    0, 
+                    "all", 
+                    [
+                        0
+                    ]
+                ]
+            ], 
+            "sortf": 0, 
+            "tags": [], 
+            "tmpls": [
+                {
+                    "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span id='test'>{{Back}}</span>", 
+                    "bafmt": "", 
+                    "bqfmt": "", 
+                    "did": null, 
+                    "name": "Forward", 
+                    "ord": 0, 
+                    "qfmt": "{{Front}}"
+                }
+            ], 
+            "type": 0, 
+            "vers": []
+        }
+    ], 
+    "notes": [
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a type?", 
+                "An identifier for a data structure and the operations that make sense for it"
+            ], 
+            "flags": 0, 
+            "guid": "EVID|~:lRk", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does it mean for an operator to be <b>left-associative</b>?", 
+                "It tries to use an much of an expression as it can for its left operand, and as little as it can for its right."
+            ], 
+            "flags": 0, 
+            "guid": "Irb}y|zRm>", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is scope?", 
+                "The part of a program in which a name has meaning."
+            ], 
+            "flags": 0, 
+            "guid": "e<s[ih8wIc", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a qualified name?", 
+                "One which includes the :: operator"
+            ], 
+            "flags": 0, 
+            "guid": "rky+QJ*d,", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are namespaces?", 
+                "Named scopes"
+            ], 
+            "flags": 0, 
+            "guid": "kvL=!vVU9o", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition", 
+                "marked"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How are headers included in a program?", 
+                "#include &lt;header&gt;"
+            ], 
+            "flags": 0, 
+            "guid": "nN7IhF1K5(", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a block?", 
+                "A sequence of zero or more statements enclosed in braces."
+            ], 
+            "flags": 0, 
+            "guid": "x1DhVYiNB`", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is an expression?", 
+                "A request for the implementation to compute something"
+            ], 
+            "flags": 0, 
+            "guid": "M,>pzP`g4^", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition", 
+                "marked"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is an expression statement?", 
+                "An expression followed by a semi-colon"
+            ], 
+            "flags": 0, 
+            "guid": "PPIsXi(^CU", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does it mean to be free-form?", 
+                "Whitespace doesn't matter except in specific cases"
+            ], 
+            "flags": 0, 
+            "guid": "N=ScI]5s2}", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the scope operator?", 
+                "::"
+            ], 
+            "flags": 0, 
+            "guid": "tR@s05$F%Q", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a variable?", 
+                "An object that has a name."
+            ], 
+            "flags": 0, 
+            "guid": "FbsSFJ$H`x", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition", 
+                "marked"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is an object?", 
+                "A part of the computer's memory that has a type."
+            ], 
+            "flags": 0, 
+            "guid": "G(<&mK6hl/", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition", 
+                "marked"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a definition?", 
+                "A statement of a variable's name and type."
+            ], 
+            "flags": 0, 
+            "guid": "D0RWfqpRsO", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is an interface?", 
+                "The collection of operations possible on an object of a certain type."
+            ], 
+            "flags": 0, 
+            "guid": "p)+Z(D!Y2Y", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition", 
+                "marked"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When is a local variable destroyed?", 
+                "At the end of the set of enclosing curly braces."
+            ], 
+            "flags": 0, 
+            "guid": "giJ~;q}hhj", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What three events cause the system to flush the stdout buffer?", 
+                "1. Buffer is full<div>2. Library asked to read from stdin</div><div>3. Library instructed to flush</div>"
+            ], 
+            "flags": 0, 
+            "guid": "MQP&S{aaZq", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": []
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When is an operator overloaded?", 
+                "When it has different meanings for different types"
+            ], 
+            "flags": 0, 
+            "guid": "x=*oOW0E{#", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does const mean in a variable definition?", 
+                "It's a promise that we are not going to change the value of the variable for the rest of its lifetime."
+            ], 
+            "flags": 0, 
+            "guid": "xuWR4c`[l)", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When must a `const` variable be initialized?", 
+                "When it is defined."
+            ], 
+            "flags": 0, 
+            "guid": "y*}R4SIbn^", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>Evaluate</p>\n<div class=\"codehilite\" style=\"background: #f8f8f8\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #000000\">std</span><span style=\"color: #ce5c00; font-weight: bold\">::</span><span style=\"color: #000000\">string</span> <span style=\"color: #000000\">s</span><span style=\"color: #000000; font-weight: bold\">;</span>\n<span style=\"color: #000000\">std</span><span style=\"color: #ce5c00; font-weight: bold\">::</span><span style=\"color: #000000\">cin</span> <span style=\"color: #ce5c00; font-weight: bold\">&gt;&gt;</span> <span style=\"color: #000000\">s</span><span style=\"color: #000000; font-weight: bold\">;</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDYyNjY1NzksICJpZCI6ICIxNDkwNTQyMTM2OTYyLTAwMCIsICJtZCI6ICJFdmFsdWF0ZVxuYGBgY3BwXG5zdGQ6OnN0cmluZyBzO1xuc3RkOjpjaW4gJmd0OyZndDsgcztcbmBgYFxuIn0=---->", 
+                "<p>Any whitespace in <code>std::cin</code> is discarded, then characters up to the next whitespace are read into <code>s</code>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDYyNjY1NzUsICJpZCI6ICIxNDkwNTQyMTM2OTYyLTAwMSIsICJtZCI6ICJBbnkgd2hpdGVzcGFjZSBpbiBgc3RkOjpjaW5gIGlzIGRpc2NhcmRlZCwgdGhlbiBjaGFyYWN0ZXJzIHVwIHRvIHRoZSBuZXh0IHdoaXRlc3BhY2UgYXJlIHJlYWQgaW50byBgc2AuXG4ifQ==---->"
+            ], 
+            "flags": 0, 
+            "guid": "L,F,4+20:x", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a loop invariant?", 
+                "A property that we assert will be true about a loop each time it is about to test its condition."
+            ], 
+            "flags": 0, 
+            "guid": "Ig?*yY@,p?", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:2", 
+                "definition"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What happens when using unsigned and signed numbers together in an expression?", 
+                "The signed number is converted to unsigned."
+            ], 
+            "flags": 0, 
+            "guid": "zGshgk8[Us", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:3"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the required minimum speed of `std::sort`?", 
+                "`n*log(n)`"
+            ], 
+            "flags": 0, 
+            "guid": "PqF]t$i)l|", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:3"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the scope of a `typedef`?", 
+                "The same as any other declaration."
+            ], 
+            "flags": 0, 
+            "guid": "kW`2@p/$OX", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:3"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is returned in an expression of the form `os &gt;&gt; x`?", 
+                "The left operand"
+            ], 
+            "flags": 0, 
+            "guid": "JC.(:r#35U", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:3"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What header contains the standard library exceptions?", 
+                "`stdexcept`"
+            ], 
+            "flags": 0, 
+            "guid": "nm,|7:J~bR", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does \"pass-by-value\" mean?", 
+                "That a copy of the arguments is passed to a function."
+            ], 
+            "flags": 0, 
+            "guid": "fbuk`e#iEF", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a reference?", 
+                "An alias to another object."
+            ], 
+            "flags": 0, 
+            "guid": "gG`+e%JpGH", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is an lvalue (pre C++11)?", 
+                "A \"living value\", an expression that denotes a non-temporary object."
+            ], 
+            "flags": 0, 
+            "guid": "O:RG[ZTKUX", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4", 
+                "marked"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are examples of lvalues?", 
+                "* the name of a variable, function or data member<div>* a function call that returns an lvalue reference</div><div>* lvalue reference</div>"
+            ], 
+            "flags": 0, 
+            "guid": "y,yI7Z;<T;", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4", 
+                "marked"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are examples of non-lvalues?", 
+                "* literal expressions<div>* function calls that return a non-reference</div>"
+            ], 
+            "flags": 0, 
+            "guid": "EaVB:z;GH%", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4", 
+                "marked"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What function resets the error/EOF state of a stream?", 
+                "`#clear()`"
+            ], 
+            "flags": 0, 
+            "guid": "sN#Y|ta9#P", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the order of operand evaluation (pre C++11)?", 
+                "Unspecified"
+            ], 
+            "flags": 0, 
+            "guid": "ISk%!v`HZu", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When dealing with exceptions, consider...", 
+                "What code may be skipped or evaluated in a different order."
+            ], 
+            "flags": 0, 
+            "guid": "z1H-;et<i}", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How many side-effects should exist in a single statement?", 
+                "1"
+            ], 
+            "flags": 0, 
+            "guid": "r<X+Hp>)oI", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What method on exceptions returns the output message?", 
+                "`#what()`"
+            ], 
+            "flags": 0, 
+            "guid": "u2hx#4B6ko", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is separate compilation?", 
+                "Compiling different parts of a program independently."
+            ], 
+            "flags": 0, 
+            "guid": "gUiHU~7=/w", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How is code in different compilation units made available for use?", 
+                "Through header files"
+            ], 
+            "flags": 0, 
+            "guid": "M(J%v&d(_j", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the difference between header files and system headers?", 
+                "System headers may not be files."
+            ], 
+            "flags": 0, 
+            "guid": "L?#,^1!2sL", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:4"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is useful about the STL?", 
+                "It can operate the same way on different container types."
+            ], 
+            "flags": 0, 
+            "guid": "ct7<m3qw|;", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Remove the first element from `std::vector&lt;T&gt; v`", 
+                "`v.erase(v.begin())`"
+            ], 
+            "flags": 0, 
+            "guid": "DR7(h&u|i0", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does `std::vector::erase(iter)` do?", 
+                "Removes the element at `iter` and copies all subsequent elements down to their new positions."
+            ], 
+            "flags": 0, 
+            "guid": "P|Z.)Gk<f}", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is an important characteristic of code that operates on containers?", 
+                "Order of element access"
+            ], 
+            "flags": 0, 
+            "guid": "Gbt7]-H7To", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What two types are defined on containers for element access?", 
+                "* `iterator`<div>* `const_iterator`</div>"
+            ], 
+            "flags": 0, 
+            "guid": "CYP~HWW01L", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does this expression do: `*a.m`", 
+                "Dereferences member `m` of object `a`."
+            ], 
+            "flags": 0, 
+            "guid": "dM4Hr0%$aA", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What iterators are invalidated by `std::vector::erase(iter)`?", 
+                "`iter` and any that come after it"
+            ], 
+            "flags": 0, 
+            "guid": "Am.z$?dQT[", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What premature optimization may cause bugs when iterating over a container?", 
+                "Saving iterator values that are invalidated, or saving the size of the container."
+            ], 
+            "flags": 0, 
+            "guid": "w|9aNG9W-B", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does it mean to describe the performance characteristics of a container?", 
+                "Explain the efficiency of insertion and deletion at different locations. Describe the memory layout to support the explanation."
+            ], 
+            "flags": 0, 
+            "guid": "n(x$nt(ZQ}", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Describe the performance characteristics of `std::vector`.", 
+                "Flat, contiguous section of memory with elements laid out in order. Insertion and removal at end are fast, random access is fast. Insertion and removal anywhere else requires moving all higher elements."
+            ], 
+            "flags": 0, 
+            "guid": "u-3#+S4kcF", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Why are iterators useful when restructuring an algorithm?", 
+                "They can make the algorithm independent of the container"
+            ], 
+            "flags": 0, 
+            "guid": "GAdOreo?_t", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When does a `std::list` outperform a `std::vector`?", 
+                "Many insertions/deletions from the middle with no random access."
+            ], 
+            "flags": 0, 
+            "guid": "rppv*W~ug.", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What can change as a result of a change in data structure?", 
+                "<div>* Algorithm methods (`std::list::sort()`)</div><div><div>* **Iterator invalidation** rules</div>* **Which operations are valid** on the container and iterators (`operator[]`)</div><div>* Performance</div>"
+            ], 
+            "flags": 0, 
+            "guid": "nr*41wXk*w", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How do you sort a `std::list`?", 
+                "With `#sort()`, because it needed something special."
+            ], 
+            "flags": 0, 
+            "guid": "Otcnc&:D7;", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a reasonable size to start worrying about performance between a `std::list` and `std::vector`?", 
+                "1000 elements"
+            ], 
+            "flags": 0, 
+            "guid": "wB=MqZ+<RR", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does the `cctype` header contain?", 
+                "Functions for querying/distinguishing characters."
+            ], 
+            "flags": 0, 
+            "guid": "tqvjRM.:l^", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How can you extract part of a `std::string`?", 
+                "`std::string::substr(index, length)`"
+            ], 
+            "flags": 0, 
+            "guid": "u`N6]L%q=9", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Append the elements of vector `v2` to vector `v1`", 
+                "`v1.insert(v1.end(), v2.begin(), v2.end())`"
+            ], 
+            "flags": 0, 
+            "guid": "@i{34H.s[", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Check if `char c` is whitespace, including `#include`.", 
+                "<div>```cpp</div><div>#include &lt;cctype&gt;</div>isspace(c)<div>```</div>"
+            ], 
+            "flags": 0, 
+            "guid": "A7~[=_4/,|", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What method gets a line of input from a stream?", 
+                "`getline(is, out)`"
+            ], 
+            "flags": 0, 
+            "guid": "J(_;1[/bTQ", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5", 
+                "marked"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Make a string with character `c` repeated `n` times.", 
+                "`std::string(n, c)`"
+            ], 
+            "flags": 0, 
+            "guid": "Pn$[o(Fco3", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are the performance characteristics of `std::list`?", 
+                "Constant time insertion/deletion anywhere. No random access. Implemented as doubly-linked list."
+            ], 
+            "flags": 0, 
+            "guid": "o-1l*}r@lk", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:5"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a <i>generic algorithm</i>?", 
+                "An algorithm that is not part of any particular container."
+            ], 
+            "flags": 0, 
+            "guid": "MY$V-C/i%:", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How does a generic algorithm select the appropriate underlying algorithm?", 
+                "Based on argument type."
+            ], 
+            "flags": 0, 
+            "guid": "d#(y67kgK-", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Interpret `*out++`", 
+                "`*(out++)` because `*` and `++` have the same precedence and are right-associative"
+            ], 
+            "flags": 0, 
+            "guid": "yx)OCh*oku", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does it mean for something to be (left|right) associative?", 
+                "That the grouping for operations start on the (left|right)."
+            ], 
+            "flags": 0, 
+            "guid": "eMQDglz0MK", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What header defines most standard algorithms?", 
+                "`algorithm`"
+            ], 
+            "flags": 0, 
+            "guid": "hl,L#%?duu", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is an iterator adapter?", 
+                "A function to allow using an iterator in an algorithm."
+            ], 
+            "flags": 0, 
+            "guid": "c{eabhzE(W", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Find an element in `std::vector v` that is odd.", 
+                "`std::find_if(v.begin(), v.end(), [](auto e) { return e % 2 == 1; });`"
+            ], 
+            "flags": 0, 
+            "guid": "Ml4>^*Hd8?", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>Check if ordered containers <code>c1</code> and <code>c2</code> are equal:</p>\n<ol>\n<li style=\"text-align: left; \">if they are the same type</li>\n<li style=\"text-align: left; \">if they may not be the same type<ol>\n<li style=\"text-align: left; \">pre-C++14</li>\n<li style=\"text-align: left; \">post-C++14</li>\n</ol>\n</li>\n</ol><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDYyNjcwODUsICJpZCI6ICIxNTA0NjYyMjkxODIxLTAwMCIsICJtZCI6ICJDaGVjayBpZiBvcmRlcmVkIGNvbnRhaW5lcnMgYGMxYCBhbmQgYGMyYCBhcmUgZXF1YWw6XG4gIFxuMS4gaWYgdGhleSBhcmUgdGhlIHNhbWUgdHlwZVxuMi4gaWYgdGhleSBtYXkgbm90IGJlIHRoZSBzYW1lIHR5cGVcbiAgICAxLiBwcmUtQysrMTRcbiAgICAyLiBwb3N0LUMrKzE0XG4ifQ==---->", 
+                "<ol>\n<li style=\"text-align: left; \"><code>c1 == c2</code></li>\n<li style=\"text-align: left; \">answers:<ol>\n<li style=\"text-align: left; \"><code>c1.size() == c2.size() &amp;&amp; std::equal(c1.begin(), c1.end(), c2.begin())</code></li>\n<li style=\"text-align: left; \"><code>std::equal(c1.begin(), c1.end(), c2.begin(), c2.end())</code></li>\n</ol>\n</li>\n</ol><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDYyNjcwNjEsICJpZCI6ICIxNTA0NjYyMjkxODIxLTAwMSIsICJtZCI6ICIxLiBgYzEgPT0gYzJgXG4yLiBhbnN3ZXJzOlxuICAgIDEuIGBjMS5zaXplKCkgPT0gYzIuc2l6ZSgpICZhbXA7JmFtcDsgc3RkOjplcXVhbChjMS5iZWdpbigpLCBjMS5lbmQoKSwgYzIuYmVnaW4oKSlgXG4gICAgMi4gYHN0ZDo6ZXF1YWwoYzEuYmVnaW4oKSwgYzEuZW5kKCksIGMyLmJlZ2luKCksIGMyLmVuZCgpKWBcbiJ9---->"
+            ], 
+            "flags": 0, 
+            "guid": "B:(N6Qq#20", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Check if `s` is a palindrome", 
+                "`std::equal(s.begin(), s.end(), s.rbegin())`"
+            ], 
+            "flags": 0, 
+            "guid": "bo?M~b}Fe`", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does `static` mean on a local variable?", 
+                "That the variable:<div>* has static storage duration</div><div>* is initialized when the function is first called</div><div>* may not be thread safe pre-C++11</div>"
+            ], 
+            "flags": 0, 
+            "guid": "t0_a@91Pel", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is static storage duration?", 
+                "Storage allocated at the start of a process that lasts until it dies."
+            ], 
+            "flags": 0, 
+            "guid": "r;x&ty^3GI", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What function checks whether a character is a letter or number?", 
+                "`isalnum(c)`"
+            ], 
+            "flags": 0, 
+            "guid": "HevQapg1nM", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Determine if `v` is in `c`.", 
+                "`std::find(c.begin(), c.end(), v)`"
+            ], 
+            "flags": 0, 
+            "guid": "uotS4JWY{O", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Determine whether `c1` is in `c2`", 
+                "`std::search(c2.begin(), c2.end(), c1.begin(), c1.end())`"
+            ], 
+            "flags": 0, 
+            "guid": "dpU|`%w)T3", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Check if `char c` is a letter.", 
+                "`isalpha(c)`"
+            ], 
+            "flags": 0, 
+            "guid": "A(E(a1->g>", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When do iterators support indexing?", 
+                "When their containers do."
+            ], 
+            "flags": 0, 
+            "guid": "x[+plI<;:f", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What do algorithms typically return if nothing is found?", 
+                "The end iterator for the input range."
+            ], 
+            "flags": 0, 
+            "guid": "zXzNm{[3v4", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Check if container `c` has any elements.", 
+                "`c.empty()`"
+            ], 
+            "flags": 0, 
+            "guid": "f=(e|ag]_]", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Sum the values in `c`", 
+                "`accumulate(c.begin(), c.end(), 0.0)`"
+            ], 
+            "flags": 0, 
+            "guid": "ej[2kBrGUe", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How can you change the type used for summing in `accumulate`?", 
+                "The last argument."
+            ], 
+            "flags": 0, 
+            "guid": "rkJQ])qzG%", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Filter out even numbers in `in` and put the result in `out`.", 
+                "`std::remove_copy(in.begin(), in.end(), std::back_inserter(out), [](auto &amp; v) { return v % 0 == 1; })`"
+            ], 
+            "flags": 0, 
+            "guid": "K6t-6KrDnG", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the first set of iterators provided to most algorithms?", 
+                "The input range"
+            ], 
+            "flags": 0, 
+            "guid": "JZG&n:hJJ}", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does `remove_if` do?", 
+                "Moves matching elements to the front of the container and returns the new end iterator."
+            ], 
+            "flags": 0, 
+            "guid": "m8(:d|Mk.h", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:6"
+            ]
+        }
+    ]
+}

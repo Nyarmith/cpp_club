@@ -1,5 +1,8 @@
 {
     "__type__": "Deck", 
+    "activeTags": [
+        "chapter:10"
+    ], 
     "children": [], 
     "crowdanki_uuid": "1421e040-9f3a-11e7-aa6f-704d7b26e6b3", 
     "deck_config_uuid": "1421e041-9f3a-11e7-aa6f-704d7b26e6b3", 
@@ -53,6 +56,7 @@
     "dyn": 0, 
     "extendNew": 10, 
     "extendRev": 50, 
+    "inactiveTags": [], 
     "media_files": [], 
     "name": "Accelerated C++", 
     "note_models": [
@@ -93,7 +97,9 @@
                 ]
             ], 
             "sortf": 0, 
-            "tags": [], 
+            "tags": [
+                "chapter:12"
+            ], 
             "tmpls": [
                 {
                     "afmt": "{{FrontSide}}\n\n<hr id=answer>\n\n<span id='test'>{{Back}}</span>", 
@@ -169,7 +175,7 @@
             "data": "", 
             "fields": [
                 "What are namespaces?", 
-                "Named scopes"
+                "A mechanism for grouping related names"
             ], 
             "flags": 0, 
             "guid": "kvL=!vVU9o", 
@@ -303,7 +309,8 @@
             "guid": "D0RWfqpRsO", 
             "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
             "tags": [
-                "definition"
+                "definition", 
+                "marked"
             ]
         }, 
         {
@@ -436,8 +443,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "What is the required minimum speed of `std::sort`?", 
-                "`n*log(n)`"
+                "<p>What is the required minimum speed of <code>std::sort</code>?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODY3MDYsICJpZCI6ICIxNTA0NTQ1OTg2MDk5LTAwMCIsICJtZCI6ICJXaGF0IGlzIHRoZSByZXF1aXJlZCBtaW5pbXVtIHNwZWVkIG9mIGBzdGQ6OnNvcnRgP1xuIn0=---->", 
+                "<p><code>n*log(n)</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODY3MDgsICJpZCI6ICIxNTA0NTQ1OTg2MDk5LTAwMSIsICJtZCI6ICJgbipsb2cobilgXG4ifQ==---->"
             ], 
             "flags": 0, 
             "guid": "PqF]t$i)l|", 
@@ -464,7 +471,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "What is returned in an expression of the form `os &gt;&gt; x`?", 
+                "<p>What is returned in an expression of the form <code>os &gt;&gt; x</code>?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc1OTM3MzksICJpZCI6ICIxNTA0NTQ2MDIzNTk3LTAwMCIsICJtZCI6ICJXaGF0IGlzIHJldHVybmVkIGluIGFuIGV4cHJlc3Npb24gb2YgdGhlIGZvcm0gYG9zICZndDsmZ3Q7IHhgP1xuIn0=---->", 
                 "The left operand"
             ], 
             "flags": 0, 
@@ -600,7 +607,8 @@
             "guid": "z1H-;et<i}", 
             "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
             "tags": [
-                "chapter:4"
+                "chapter:4", 
+                "marked"
             ]
         }, 
         {
@@ -740,7 +748,8 @@
             "guid": "CYP~HWW01L", 
             "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
             "tags": [
-                "chapter:5"
+                "chapter:5", 
+                "marked"
             ]
         }, 
         {
@@ -993,7 +1002,8 @@
             "guid": "MY$V-C/i%:", 
             "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
             "tags": [
-                "chapter:6"
+                "chapter:6", 
+                "marked"
             ]
         }, 
         {
@@ -1035,7 +1045,8 @@
             "guid": "eMQDglz0MK", 
             "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
             "tags": [
-                "chapter:6"
+                "chapter:6", 
+                "marked"
             ]
         }, 
         {
@@ -1070,8 +1081,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Find an element in `std::vector v` that is odd.", 
-                "`std::find_if(v.begin(), v.end(), [](auto e) { return e % 2 == 1; });`"
+                "<p>Find an element in <code>std::vector&lt;int&gt; v</code> that is odd.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODY0MjQsICJpZCI6ICIxNTA0NjYyMTE5MjI5LTAwMCIsICJtZCI6ICJGaW5kIGFuIGVsZW1lbnQgaW4gYHN0ZDo6dmVjdG9yJmx0O2ludCZndDsgdmAgdGhhdCBpcyBvZGQuXG4ifQ==---->", 
+                "<div class=\"codehilite\" style=\"background: #f8f8f8\" align=\"left\"><pre style=\"line-height: 125%\">std::find_if(v.begin(), v.end(),\n    [](auto e) { return e % 2 == 1; });\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODY0MjYsICJpZCI6ICIxNTA0NjYyMTE5MjI5LTAwMSIsICJtZCI6ICJgYGBcbnN0ZDo6ZmluZF9pZih2LmJlZ2luKCksIHYuZW5kKCksXG4gICAgW10oYXV0byBlKSB7IHJldHVybiBlICUgMiA9PSAxOyB9KTtcbmBgYFxuIn0=---->"
             ], 
             "flags": 0, 
             "guid": "Ml4>^*Hd8?", 
@@ -1098,8 +1109,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Check if `s` is a palindrome", 
-                "`std::equal(s.begin(), s.end(), s.rbegin())`"
+                "<p>Check if <code>std::string s</code> is a palindrome</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODY0NjgsICJpZCI6ICIxNTA0NjYyMzI4MjE1LTAwMCIsICJtZCI6ICJDaGVjayBpZiBgc3RkOjpzdHJpbmcgc2AgaXMgYSBwYWxpbmRyb21lXG4ifQ==---->", 
+                "<p><code>std::equal(s.begin(), s.end(), s.rbegin())</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODY0NjksICJpZCI6ICIxNTA0NjYyMzI4MjE1LTAwMSIsICJtZCI6ICJgc3RkOjplcXVhbChzLmJlZ2luKCksIHMuZW5kKCksIHMucmJlZ2luKCkpYFxuIn0=---->"
             ], 
             "flags": 0, 
             "guid": "bo?M~b}Fe`", 
@@ -1112,8 +1123,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "What does `static` mean on a local variable?", 
-                "That the variable:<div>* has static storage duration</div><div>* is initialized when the function is first called</div><div>* may not be thread safe pre-C++11</div>"
+                "<p>What does <code>static</code> mean on a local variable?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODY2MjMsICJpZCI6ICIxNTA0NjYyMzY1MjMyLTAwMCIsICJtZCI6ICJXaGF0IGRvZXMgYHN0YXRpY2AgbWVhbiBvbiBhIGxvY2FsIHZhcmlhYmxlP1xuIn0=---->", 
+                "<p>That the variable:</p>\n<ul>\n<li style=\"text-align: left; \">has static storage duration</li>\n<li style=\"text-align: left; \">is initialized when the function is first called</li>\n<li style=\"text-align: left; \">initialization may not be thread safe pre-C++11</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODY2NTEsICJpZCI6ICIxNTA0NjYyMzY1MjMyLTAwMSIsICJtZCI6ICJUaGF0IHRoZSB2YXJpYWJsZTpcbiAgXG4qIGhhcyBzdGF0aWMgc3RvcmFnZSBkdXJhdGlvblxuKiBpcyBpbml0aWFsaXplZCB3aGVuIHRoZSBmdW5jdGlvbiBpcyBmaXJzdCBjYWxsZWRcbiogaW5pdGlhbGl6YXRpb24gbWF5IG5vdCBiZSB0aHJlYWQgc2FmZSBwcmUtQysrMTFcbiJ9---->"
             ], 
             "flags": 0, 
             "guid": "t0_a@91Pel", 
@@ -1140,8 +1151,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "What function checks whether a character is a letter or number?", 
-                "`isalnum(c)`"
+                "What function checks whether a character matches `[a-zA-Z0-9]`?", 
+                "`isalnum(c)` from `cctype`"
             ], 
             "flags": 0, 
             "guid": "HevQapg1nM", 
@@ -1154,8 +1165,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Determine if `v` is in `c`.", 
-                "`std::find(c.begin(), c.end(), v)`"
+                "<p>Use an STL algorithm to determine if <code>T v</code> is in <code>std::vector&lt;T&gt; c</code>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODY5NDUsICJpZCI6ICIxNTA0NjYyNDcyNzk1LTAwMCIsICJtZCI6ICJVc2UgYW4gU1RMIGFsZ29yaXRobSB0byBkZXRlcm1pbmUgaWYgYFQgdmAgaXMgaW4gYHN0ZDo6dmVjdG9yJmx0O1QmZ3Q7IGNgLlxuIn0=---->", 
+                "<p><code>std::find(c.begin(), c.end(), v) != c.end()</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODY5NDcsICJpZCI6ICIxNTA0NjYyNDcyNzk1LTAwMSIsICJtZCI6ICJgc3RkOjpmaW5kKGMuYmVnaW4oKSwgYy5lbmQoKSwgdikgIT0gYy5lbmQoKWBcbiJ9---->"
             ], 
             "flags": 0, 
             "guid": "uotS4JWY{O", 
@@ -1168,8 +1179,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Determine whether `c1` is in `c2`", 
-                "`std::search(c2.begin(), c2.end(), c1.begin(), c1.end())`"
+                "<p>Determine whether container <code>c1</code> is in <code>c2</code>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODY5OTgsICJpZCI6ICIxNTA0NjYyNTAzOTU2LTAwMCIsICJtZCI6ICJEZXRlcm1pbmUgd2hldGhlciBjb250YWluZXIgYGMxYCBpcyBpbiBgYzJgLlxuIn0=---->", 
+                "<p><code>std::search(c2.begin(), c2.end(), c1.begin(), c1.end())</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODY5OTYsICJpZCI6ICIxNTA0NjYyNTAzOTU2LTAwMSIsICJtZCI6ICJgc3RkOjpzZWFyY2goYzIuYmVnaW4oKSwgYzIuZW5kKCksIGMxLmJlZ2luKCksIGMxLmVuZCgpKWBcbiJ9---->"
             ], 
             "flags": 0, 
             "guid": "dpU|`%w)T3", 
@@ -1238,8 +1249,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Sum the values in `c`", 
-                "`accumulate(c.begin(), c.end(), 0.0)`"
+                "<p>Sum the values in container <code>c</code>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODYzMTksICJpZCI6ICIxNTA0NjYyNjI0NDUwLTAwMCIsICJtZCI6ICJTdW0gdGhlIHZhbHVlcyBpbiBjb250YWluZXIgYGNgLlxuIn0=---->", 
+                "<p><code>std::accumulate(c.begin(), c.end(), 0.0)</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODYzMjQsICJpZCI6ICIxNTA0NjYyNjI0NDUwLTAwMSIsICJtZCI6ICJgc3RkOjphY2N1bXVsYXRlKGMuYmVnaW4oKSwgYy5lbmQoKSwgMC4wKWBcbiJ9---->"
             ], 
             "flags": 0, 
             "guid": "ej[2kBrGUe", 
@@ -1252,7 +1263,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "How can you change the type used for summing in `accumulate`?", 
+                "<p>How can you change the type used for summing in <code>std::accumulate</code>?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODcyNDIsICJpZCI6ICIxNTA0NjYyNjc2ODE3LTAwMCIsICJtZCI6ICJIb3cgY2FuIHlvdSBjaGFuZ2UgdGhlIHR5cGUgdXNlZCBmb3Igc3VtbWluZyBpbiBgc3RkOjphY2N1bXVsYXRlYD9cbiJ9---->", 
                 "The last argument."
             ], 
             "flags": 0, 
@@ -1266,8 +1277,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "Filter out even numbers in `in` and put the result in `out`.", 
-                "`std::remove_copy(in.begin(), in.end(), std::back_inserter(out), [](auto &amp; v) { return v % 0 == 1; })`"
+                "<p>Given an <code>is_even</code> function, filter out even numbers in <code>in</code> (so none are left) and put the result in <code>std::vector out</code>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODcyMjIsICJpZCI6ICIxNTA0NjYyNjkzOTc3LTAwMCIsICJtZCI6ICJHaXZlbiBhbiBgaXNfZXZlbmAgZnVuY3Rpb24sIGZpbHRlciBvdXQgZXZlbiBudW1iZXJzIGluIGBpbmAgKHNvIG5vbmUgYXJlIGxlZnQpIGFuZCBwdXQgdGhlIHJlc3VsdCBpbiBgc3RkOjp2ZWN0b3Igb3V0YC5cbiJ9---->", 
+                "<p><code>std::remove_copy(in.begin(), in.end(), std::back_inserter(out), is_even)</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODcyMjQsICJpZCI6ICIxNTA0NjYyNjkzOTc3LTAwMSIsICJtZCI6ICJgc3RkOjpyZW1vdmVfY29weShpbi5iZWdpbigpLCBpbi5lbmQoKSwgc3RkOjpiYWNrX2luc2VydGVyKG91dCksIGlzX2V2ZW4pYFxuIn0=---->"
             ], 
             "flags": 0, 
             "guid": "K6t-6KrDnG", 
@@ -1294,7 +1305,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "What does `remove_if` do?", 
+                "<p>What does <code>std::remove_if</code> do?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc1OTM3MTQsICJpZCI6ICIxNTA0NjYyODA3NjA3LTAwMCIsICJtZCI6ICJXaGF0IGRvZXMgYHN0ZDo6cmVtb3ZlX2lmYCBkbz9cbiJ9---->", 
                 "Moves matching elements to the front of the container and returns the new end iterator."
             ], 
             "flags": 0, 
@@ -1302,6 +1313,1449 @@
             "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
             "tags": [
                 "chapter:6"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the basic associated container in C++?", 
+                "<p><code>std::map</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTIwMDMsICJpZCI6ICIxNTA3NDExOTc1OTYwLTAwMSIsICJtZCI6ICJgc3RkOjptYXBgXG4ifQ==---->"
+            ], 
+            "flags": 0, 
+            "guid": "b7l70KTpaT", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is an associative container?", 
+                "One that maps keys to values"
+            ], 
+            "flags": 0, 
+            "guid": "g3lGi7T6NW", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does it mean to fully describe an expression?", 
+                "Give the return type, expected return value, and any potential side-effects"
+            ], 
+            "flags": 0, 
+            "guid": "kO8o$n3=mH", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Describe `m[k]` given `std::map&lt;K, V&gt; m` and `K k`", 
+                "Returns a reference to the value referred to by the key `k` in `m`. If `k` does not initially refer to a value, then one will be added to the map and value-initialized."
+            ], 
+            "flags": 0, 
+            "guid": "Q6QT)=(}/(", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How do you access the value referred to by `k` in `std::map m`?", 
+                "`m[k]`"
+            ], 
+            "flags": 0, 
+            "guid": "m*w=^)FJx]", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does it mean for an int to be value-initialized?", 
+                "It is given the value 0."
+            ], 
+            "flags": 0, 
+            "guid": "o:Q0M_lpL~", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What is the <code>value_type</code> for <code>std::map&lt;K, V&gt;</code>?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTIyNDQsICJpZCI6ICIxNTA3NDEyMTk2NzE5LTAwMCIsICJtZCI6ICJXaGF0IGlzIHRoZSBgdmFsdWVfdHlwZWAgZm9yIGBzdGQ6Om1hcCZsdDtLLCBWJmd0O2A/XG4ifQ==---->", 
+                "<p><code>std::pair&lt;const K, V&gt;</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTIyNDEsICJpZCI6ICIxNTA3NDEyMTk2NzE5LTAwMSIsICJtZCI6ICJgc3RkOjpwYWlyJmx0O2NvbnN0IEssIFYmZ3Q7YFxuIn0=---->"
+            ], 
+            "flags": 0, 
+            "guid": "n{(z`D.^lK", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>When iterating over a <code>std::map</code> what kind of values are you getting?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc1OTM4ODEsICJpZCI6ICIxNTA3NDEyMjQ3NzUzLTAwMCIsICJtZCI6ICJXaGVuIGl0ZXJhdGluZyBvdmVyIGEgYHN0ZDo6bWFwYCB3aGF0IGtpbmQgb2YgdmFsdWVzIGFyZSB5b3UgZ2V0dGluZz9cbiJ9---->", 
+                "Pairs of keys and values"
+            ], 
+            "flags": 0, 
+            "guid": "q}bF<G7?hk", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7", 
+                "marked"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How to access the elements of a pair `p`?", 
+                "`p.first`, `p.second`"
+            ], 
+            "flags": 0, 
+            "guid": "h*S~f+dU5[", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How can a default argument be provided to a function?", 
+                "Use `= val` after the type and name."
+            ], 
+            "flags": 0, 
+            "guid": "b>WjP&s84}", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does it mean for a `std::vector` to be value-initialized?", 
+                "It ends up &nbsp;in the same state as if we created it without any arguments"
+            ], 
+            "flags": 0, 
+            "guid": "ih:V?40%z5", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>Check whether <code>k</code> is in <code>std::map m</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTIzODAsICJpZCI6ICIxNTA3NDEyMzM2MTE1LTAwMCIsICJtZCI6ICJDaGVjayB3aGV0aGVyIGBrYCBpcyBpbiBgc3RkOjptYXAgbWBcbiJ9---->", 
+                "<p><code>m.find(k) != m.end()</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTIzODEsICJpZCI6ICIxNTA3NDEyMzM2MTE1LTAwMSIsICJtZCI6ICJgbS5maW5kKGspICE9IG0uZW5kKClgXG4ifQ==---->"
+            ], 
+            "flags": 0, 
+            "guid": "pnZPau{zuX", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>How do you access an element of a <code>const std::map m</code>?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTI0MzQsICJpZCI6ICIxNTA3NDEyMzgzODU1LTAwMCIsICJtZCI6ICJIb3cgZG8geW91IGFjY2VzcyBhbiBlbGVtZW50IG9mIGEgYGNvbnN0IHN0ZDo6bWFwIG1gP1xuIn0=---->", 
+                "<p><code>m.find()</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTI0MzIsICJpZCI6ICIxNTA3NDEyMzgzODU1LTAwMSIsICJtZCI6ICJgbS5maW5kKClgXG4ifQ==---->"
+            ], 
+            "flags": 0, 
+            "guid": "ui.}2>K7{%", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>Where is the <code>rand</code> function defined?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTI0NjEsICJpZCI6ICIxNTA3NDEyNDM2NDUxLTAwMCIsICJtZCI6ICJXaGVyZSBpcyB0aGUgYHJhbmRgIGZ1bmN0aW9uIGRlZmluZWQ/XG4ifQ==---->", 
+                "<p><code>cstdlib</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTI0NTksICJpZCI6ICIxNTA3NDEyNDM2NDUxLTAwMSIsICJtZCI6ICJgY3N0ZGxpYmBcbiJ9---->"
+            ], 
+            "flags": 0, 
+            "guid": "C#eM7/2?c<", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What does <code>RAND_MAX</code> indicate?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTI1MDQsICJpZCI6ICIxNTA3NDEyNDYyNDU2LTAwMCIsICJtZCI6ICJXaGF0IGRvZXMgYFJBTkRfTUFYYCBpbmRpY2F0ZT9cbiJ9---->", 
+                "<p>The largest possible value <code>rand</code> may return</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTI1MDMsICJpZCI6ICIxNTA3NDEyNDYyNDU2LTAwMSIsICJtZCI6ICJUaGUgbGFyZ2VzdCBwb3NzaWJsZSB2YWx1ZSBgcmFuZGAgbWF5IHJldHVyblxuIn0=---->"
+            ], 
+            "flags": 0, 
+            "guid": "Mybwy^SK!J", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What is a <code>do while</code> loop?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTQ0MDIsICJpZCI6ICIxNTA3NDEyNTA1OTQwLTAwMCIsICJtZCI6ICJXaGF0IGlzIGEgYGRvIHdoaWxlYCBsb29wP1xuIn0=---->", 
+                "A loop construct that executes the body once before checking the condition."
+            ], 
+            "flags": 0, 
+            "guid": "GT3,e.8,@d", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What is the difference between <code>std::map</code> and associative containers in other languages?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTQ0ODEsICJpZCI6ICIxNTA3NDE0NDA0NDY3LTAwMCIsICJtZCI6ICJXaGF0IGlzIHRoZSBkaWZmZXJlbmNlIGJldHdlZW4gYHN0ZDo6bWFwYCBhbmQgYXNzb2NpYXRpdmUgY29udGFpbmVycyBpbiBvdGhlciBsYW5ndWFnZXM/XG4ifQ==---->", 
+                "<ul>\n<li style=\"text-align: left; \">Sorted by keys instead of hashed</li>\n<li style=\"text-align: left; \"><code>log(n)</code> retrieval</li>\n<li style=\"text-align: left; \">keys can be retrieved in sorted order</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTQ0NzQsICJpZCI6ICIxNTA3NDE0NDA0NDY3LTAwMSIsICJtZCI6ICIqIFNvcnRlZCBieSBrZXlzIGluc3RlYWQgb2YgaGFzaGVkXG4qIGBsb2cobilgIHJldHJpZXZhbFxuKiBrZXlzIGNhbiBiZSByZXRyaWV2ZWQgaW4gc29ydGVkIG9yZGVyXG4ifQ==---->"
+            ], 
+            "flags": 0, 
+            "guid": "wHz^)Rjr)M", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is required for the keys in a `std::map`?", 
+                "`operator&lt;`"
+            ], 
+            "flags": 0, 
+            "guid": "O~+U]VmZm-", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:7"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a generic function?", 
+                "A function where the arguments or return type are unknown until use."
+            ], 
+            "flags": 0, 
+            "guid": "PwB#qQm|uo", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What constrains the types that may be passed to a generic function?", 
+                "The way in which the function uses the arguments."
+            ], 
+            "flags": 0, 
+            "guid": "h~@BiR:.@v", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What language feature implements generic functions?", 
+                "templates"
+            ], 
+            "flags": 0, 
+            "guid": "pvv<[Kn=QB", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the syntax for defining a template function?", 
+                "<div class=\"codehilite\" style=\"background: #f8f8f8\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #000000\">template</span><span style=\"color: #ce5c00; font-weight: bold\">&lt;</span><span style=\"color: #204a87; font-weight: bold\">class</span> <span style=\"color: #000000\">type</span><span style=\"color: #ce5c00; font-weight: bold\">-</span><span style=\"color: #000000\">parameter</span><span style=\"color: #000000; font-weight: bold\">,</span> <span style=\"color: #000000; font-weight: bold\">...</span><span style=\"color: #ce5c00; font-weight: bold\">&gt;</span>\n<span style=\"color: #000000\">ret</span><span style=\"color: #ce5c00; font-weight: bold\">-</span><span style=\"color: #000000\">type</span> <span style=\"color: #204a87; font-weight: bold\">function</span><span style=\"color: #ce5c00; font-weight: bold\">-</span><span style=\"color: #000000\">name</span> <span style=\"color: #000000; font-weight: bold\">(</span><span style=\"color: #000000\">parameter</span><span style=\"color: #ce5c00; font-weight: bold\">-</span><span style=\"color: #000000\">list</span><span style=\"color: #000000; font-weight: bold\">)</span></pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc1OTM4MTYsICJpZCI6ICIxNTA3NDE0NTgxOTMzLTAwMSIsICJtZCI6ICJgYGBcbnRlbXBsYXRlJmx0O2NsYXNzIHR5cGUtcGFyYW1ldGVyLCAuLi4mZ3Q7XG5yZXQtdHlwZSBmdW5jdGlvbi1uYW1lIChwYXJhbWV0ZXItbGlzdClcbmBgYFxuIn0=---->"
+            ], 
+            "flags": 0, 
+            "guid": "rh)AAN2Xnb", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When is the template parameter of a template function bound to a type?", 
+                "At compile time"
+            ], 
+            "flags": 0, 
+            "guid": "t2%?xK~X2/", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are some requirements imposed by C++ implementations on the use of templates?", 
+                "<ul>\n<li style=\"text-align: left; \">definition has to be visible at compile-time</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTQ2NzIsICJpZCI6ICIxNTA3NDE0NjQxMzU2LTAwMSIsICJtZCI6ICIqIGRlZmluaXRpb24gaGFzIHRvIGJlIHZpc2libGUgYXQgY29tcGlsZS10aW1lXG4ifQ==---->"
+            ], 
+            "flags": 0, 
+            "guid": "GQ~J^p5&*3", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How many iterator categories are there?", 
+                "5"
+            ], 
+            "flags": 0, 
+            "guid": "s/Rapn62=@", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What operations should input iterators support?", 
+                "<p><code>i++</code>, <code>++i</code>, <code>==</code>, <code>!=</code>, <code>*i</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTQ3MjAsICJpZCI6ICIxNTA3NDE0Njg2ODUyLTAwMSIsICJtZCI6ICJgaSsrYCwgYCsraWAsIGA9PWAsIGAhPWAsIGAqaWBcbiJ9---->"
+            ], 
+            "flags": 0, 
+            "guid": "J.0[S}?7s", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What operations should output iterators support?", 
+                "assignment, `i++`"
+            ], 
+            "flags": 0, 
+            "guid": "dALxzIu+W[", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What should programs using output iterators adhere to?", 
+                "write-once property"
+            ], 
+            "flags": 0, 
+            "guid": "P-i;faee)]", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What operations should a forward iterator support?", 
+                "All from input and output, plus supporting multi-pass"
+            ], 
+            "flags": 0, 
+            "guid": "i7dIH],`L?", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What operations does a bidirectional iterator have?", 
+                "Forward iterator operations + decrement"
+            ], 
+            "flags": 0, 
+            "guid": "HfXz>A1}(g", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the benefit of using an output iterator instead of returning an output type?", 
+                "It allows the caller to define the output container type."
+            ], 
+            "flags": 0, 
+            "guid": "o9GhcGK#p!", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are the three reasons for the end iterator being one-past-the-end?", 
+                "<ul>\n<li style=\"text-align: left; \">empty ranges are not a special case</li>\n<li style=\"text-align: left; \">natural sentinal value</li>\n<li style=\"text-align: left; \">only requires checking equality when iterating</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0NzA2MjEsICJpZCI6ICIxNTA3NDcwNTQyMzU1LTAwMSIsICJtZCI6ICIqIGVtcHR5IHJhbmdlcyBhcmUgbm90IGEgc3BlY2lhbCBjYXNlXG4qIG5hdHVyYWwgc2VudGluYWwgdmFsdWVcbiogb25seSByZXF1aXJlcyBjaGVja2luZyBlcXVhbGl0eSB3aGVuIGl0ZXJhdGluZ1xuIn0=---->"
+            ], 
+            "flags": 0, 
+            "guid": "(hja,dK~V", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:8"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a `class`?", 
+                "A mechanism for grouping related data members"
+            ], 
+            "flags": 0, 
+            "guid": "h<_:^g|rE,", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Why is it bad practice to put unnecessary `using` declarations in a header?", 
+                "It pollutes the namespace of header users"
+            ], 
+            "flags": 0, 
+            "guid": "uK=6D).)c", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the scope of member variables?", 
+                "The rest of the class body, all method bodies (including ones out of class body), default arguments, and in-class initializers."
+            ], 
+            "flags": 0, 
+            "guid": "wxe39dGO.S", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does a leading `::` do when referencing a value?", 
+                "Ensures name resolution starts from the global scope"
+            ], 
+            "flags": 0, 
+            "guid": "f4@G=]8!JY", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a `const` member function?", 
+                "One that does not change the object it is called on"
+            ], 
+            "flags": 0, 
+            "guid": "LpA;SKY`I]", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How is a `const` member function declared?", 
+                "`return-type function-name(arg-list) const`"
+            ], 
+            "flags": 0, 
+            "guid": "OHF(e2CGe|", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "For `const` member functions, does the `const` need to be specified on the declaration or definition? Why?", 
+                "Both, because argument types must be identical between both, and it is a qualifier on the implicit object for members."
+            ], 
+            "flags": 0, 
+            "guid": "J]db<g0YPX", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What member functions may be called on `const` objects?", 
+                "`const` member functions"
+            ], 
+            "flags": 0, 
+            "guid": "dZr3(xkN/%", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is one heuristic to determine whether a function should be defined as a member?", 
+                "If it changes the value of the object."
+            ], 
+            "flags": 0, 
+            "guid": "exqcD2$qM6", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are protection labels?", 
+                "Indicators of the visibility of members"
+            ], 
+            "flags": 0, 
+            "guid": "O;3QVd7bii", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What proptection labels exist and what do they mean?", 
+                "`public` - anyone can access; `private` - the current class can access; `protected` - the current class and derived classes can access"
+            ], 
+            "flags": 0, 
+            "guid": "E5x[+Kel-Y", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the difference between using `class` and `struct` when declaring types?", 
+                "Default visibility. `class`: `private`; `struct`: `public`"
+            ], 
+            "flags": 0, 
+            "guid": "N$hoNfpR$g", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the difference between defining a function in a class body vs outside?", 
+                "It hints to the compiler that the function should be inlined."
+            ], 
+            "flags": 0, 
+            "guid": "vb4(Z~;zrI", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What happens if a constructor is not defined for a class?", 
+                "A synthesized default constructor is created"
+            ], 
+            "flags": 0, 
+            "guid": "n*I*%!5tK`", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What happens in the synthesized default constructor if the object is default-initialized?", 
+                "Members are default-initialized"
+            ], 
+            "flags": 0, 
+            "guid": "Eg=8V#A{6k", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What kind of initialization happens when an object is created in a `std::map`?", 
+                "value-initialization"
+            ], 
+            "flags": 0, 
+            "guid": "B@XT>l/7=z", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What operations are valid for undefined values?", 
+                "Assignment"
+            ], 
+            "flags": 0, 
+            "guid": "LUGVxQW}BO", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a default constructor?", 
+                "A constructor that takes no arguments"
+            ], 
+            "flags": 0, 
+            "guid": "tXETl&>RjK", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the value of a value-initialized built-in type?", 
+                "0"
+            ], 
+            "flags": 0, 
+            "guid": "g$@r<%m|Z8", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the value of a default-initialized built-in type?", 
+                "undefined"
+            ], 
+            "flags": 0, 
+            "guid": "K`PRA2kL%6", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Why is it not a good idea to leave members undefined?", 
+                "Some synthesized function or later addition may use the member inappropriately."
+            ], 
+            "flags": 0, 
+            "guid": "e&lD?1?j2C", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the syntax for the constructor initialization list?", 
+                "<p><code>classname() : member-name(argument-list), ... {}</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0NzcxNjMsICJpZCI6ICIxNTA3NDc3MTI4ODQwLTAwMSIsICJtZCI6ICJgY2xhc3NuYW1lKCkgOiBtZW1iZXItbmFtZShhcmd1bWVudC1saXN0KSwgLi4uIHt9YFxuIn0=---->"
+            ], 
+            "flags": 0, 
+            "guid": "lp<rd~4@nS", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are the steps taken when an object is created?", 
+                "<ol>\n<li style=\"text-align: left; \">Allocate memory to hold the object</li>\n<li style=\"text-align: left; \">Initialize the object per the constructor initialization list</li>\n<li style=\"text-align: left; \">Execute the constructor body</li>\n</ol><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0NzcxOTgsICJpZCI6ICIxNTA3NDc3MTY1Njg2LTAwMSIsICJtZCI6ICIxLiBBbGxvY2F0ZSBtZW1vcnkgdG8gaG9sZCB0aGUgb2JqZWN0XG4yLiBJbml0aWFsaXplIHRoZSBvYmplY3QgcGVyIHRoZSBjb25zdHJ1Y3RvciBpbml0aWFsaXphdGlvbiBsaXN0XG4zLiBFeGVjdXRlIHRoZSBjb25zdHJ1Y3RvciBib2R5XG4ifQ==---->"
+            ], 
+            "flags": 0, 
+            "guid": "vUh1cOz@v:", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the order of member initialization?", 
+                "The order that the members appear in the class."
+            ], 
+            "flags": 0, 
+            "guid": "Nh)JKyC&Qc", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How to avoid complexity when members depend on each other?", 
+                "Use assignment in the constructor body"
+            ], 
+            "flags": 0, 
+            "guid": "ibhh~K]}dl", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:9"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What should we consider when defining the first constructor for a class?", 
+                "Whether we want to also make a default constructor, since the implicit default constructor will not be created."
+            ], 
+            "flags": 0, 
+            "guid": "j537ics&pE", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How is a conversion from another type defined for a class?", 
+                "Defining a constructor that takes the type to be converted from"
+            ], 
+            "flags": 0, 
+            "guid": "unQ7^B_h]L", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Where are non-member binary operators usually defined for a class?", 
+                "In the same header"
+            ], 
+            "flags": 0, 
+            "guid": "F~&3dz~de|", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What property of operators may imply they should be separate functions?", 
+                "The left operand of a binary member operator is the object itself, so it should be separate if expected usage doesn't adhere to that convention."
+            ], 
+            "flags": 0, 
+            "guid": "I&y1OWioZk", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>Write the next character of <code>std::istream is</code> into <code>char c</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0Nzg1ODgsICJpZCI6ICIxNTA3NDc4MzcwMDg5LTAwMCIsICJtZCI6ICJXcml0ZSB0aGUgbmV4dCBjaGFyYWN0ZXIgb2YgYHN0ZDo6aXN0cmVhbSBpc2AgaW50byBgY2hhciBjYFxuIn0=---->", 
+                "<p><code>is.get(c)</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0Nzg1OTQsICJpZCI6ICIxNTA3NDc4MzcwMDg5LTAwMSIsICJtZCI6ICJgaXMuZ2V0KGMpYFxuIn0=---->"
+            ], 
+            "flags": 0, 
+            "guid": "f-;2K>|.KP", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What method on a <code>std::istream</code> reverts the last <code>get</code> operation?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0ODIzODQsICJpZCI6ICIxNTA3NDc4NTk1ODMyLTAwMCIsICJtZCI6ICJXaGF0IG1ldGhvZCBvbiBhIGBzdGQ6OmlzdHJlYW1gIHJldmVydHMgdGhlIGxhc3QgYGdldGAgb3BlcmF0aW9uP1xuIn0=---->", 
+                "<p><code>unget</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0ODIzODIsICJpZCI6ICIxNTA3NDc4NTk1ODMyLTAwMSIsICJtZCI6ICJgdW5nZXRgXG4ifQ==---->"
+            ], 
+            "flags": 0, 
+            "guid": "r?QIREv4![", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What visibility do <code>friend</code> functions and classes have?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0ODI1MDgsICJpZCI6ICIxNTA3NDc4Njg4Nzc2LTAwMCIsICJtZCI6ICJXaGF0IHZpc2liaWxpdHkgZG8gYGZyaWVuZGAgZnVuY3Rpb25zIGFuZCBjbGFzc2VzIGhhdmU/XG4ifQ==---->", 
+                "The same as members"
+            ], 
+            "flags": 0, 
+            "guid": "G@x1xh^i9,", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How to make a function a friend of a class?", 
+                "<p><code>friend function-declaration</code> in the body of the class</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0Nzg3ODAsICJpZCI6ICIxNTA3NDc4NzU1ODI4LTAwMSIsICJtZCI6ICJgZnJpZW5kIGZ1bmN0aW9uLWRlY2xhcmF0aW9uYCBpbiB0aGUgYm9keSBvZiB0aGUgY2xhc3NcbiJ9---->"
+            ], 
+            "flags": 0, 
+            "guid": "miC_w-h%U=", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>When is it appropriate to make a function a <code>friend</code> of the class?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0ODI1MzIsICJpZCI6ICIxNTA3NDc4NzgxODg0LTAwMCIsICJtZCI6ICJXaGVuIGlzIGl0IGFwcHJvcHJpYXRlIHRvIG1ha2UgYSBmdW5jdGlvbiBhIGBmcmllbmRgIG9mIHRoZSBjbGFzcz9cbiJ9---->", 
+                "When it is part of the general abstraction presented by the class"
+            ], 
+            "flags": 0, 
+            "guid": "x]Ju[4$do)", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What is the return value for <code>operator+=</code>?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0ODI1NDYsICJpZCI6ICIxNTA3NDc4ODI0ODI3LTAwMCIsICJtZCI6ICJXaGF0IGlzIHRoZSByZXR1cm4gdmFsdWUgZm9yIGBvcGVyYXRvcis9YD9cbiJ9---->", 
+                "A reference to the left operand"
+            ], 
+            "flags": 0, 
+            "guid": "D/jYIG83(!", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What impact do conversions have on where operators are defined?", 
+                "Because a member operator can't be called on the result of a conversion, binary operations that want to use conversions should be separate functions."
+            ], 
+            "flags": 0, 
+            "guid": "7RcUVasc}", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the rule for the type of a function argument?", 
+                "It can be of any type convertible to the parameter type."
+            ], 
+            "flags": 0, 
+            "guid": "J;LD1%)vJF", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How are free binary operator functions different from binary operator member functions?", 
+                "The left operand of binary operator member functions cannot be the result of a conversion"
+            ], 
+            "flags": 0, 
+            "guid": "tTqku&l2Hv", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What is a quick way to implement binary operators for class types? Give example using <code>+</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0ODM4MDQsICJpZCI6ICIxNTA3NDgzNzE2MDQyLTAwMCIsICJtZCI6ICJXaGF0IGlzIGEgcXVpY2sgd2F5IHRvIGltcGxlbWVudCBiaW5hcnkgb3BlcmF0b3JzIGZvciBjbGFzcyB0eXBlcz8gR2l2ZSBleGFtcGxlIHVzaW5nIGArYFxuIn0=---->", 
+                "<p>Implement the operator-assignment member first then the operator using it:  </p>\n<div class=\"codehilite\" style=\"background: #f8f8f8\" align=\"left\"><pre style=\"line-height: 125%\"><span style=\"color: #204a87;font-weight: bold\">std</span><span style=\"color: #ce5c00; font-weight: bold\">:</span><span style=\"color: #5c35cc; font-weight: bold\">:string</span> <span style=\"color: #204a87; font-weight: bold\">operator</span><span style=\"color: #ce5c00; font-weight: bold\">+(</span><span style=\"color: #204a87; font-weight: bold\">const</span> <span style=\"color: #204a87; font-weight: bold\">std</span><span style=\"color: #ce5c00; font-weight: bold\">:</span><span style=\"color: #5c35cc; font-weight: bold\">:string</span> <span style=\"color: #ce5c00; font-weight: bold\">&amp;</span> <span style=\"color: #204a87; font-weight: bold\">s</span><span style=\"color: #ce5c00; font-weight: bold\">,</span> <span style=\"color: #204a87; font-weight: bold\">const</span> <span style=\"color: #204a87; font-weight: bold\">std</span><span style=\"color: #ce5c00; font-weight: bold\">:</span><span style=\"color: #5c35cc; font-weight: bold\">:string</span> <span style=\"color: #ce5c00; font-weight: bold\">&amp;</span> <span style=\"color: #204a87; font-weight: bold\">t</span><span style=\"color: #ce5c00; font-weight: bold\">)</span> <span style=\"color: #000000; font-weight: bold\">{</span>\n  <span style=\"color: #000000\">std</span><span style=\"color: #ce5c00; font-weight: bold\">::</span><span style=\"color: #000000\">string</span> <span style=\"color: #000000\">out</span> <span style=\"color: #ce5c00; font-weight: bold\">=</span> <span style=\"color: #000000\">s</span><span style=\"color: #000000; font-weight: bold\">;</span>\n  <span style=\"color: #000000\">out</span> <span style=\"color: #ce5c00; font-weight: bold\">+=</span> <span style=\"color: #000000\">t</span><span style=\"color: #000000; font-weight: bold\">;</span>\n  <span style=\"color: #000000\">return</span> <span style=\"color: #000000\">out</span><span style=\"color: #000000; font-weight: bold\">;</span>\n<span style=\"color: #000000; font-weight: bold\">}</span>\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0ODM4NzIsICJpZCI6ICIxNTA3NDgzNzE2MDQyLTAwMSIsICJtZCI6ICJJbXBsZW1lbnQgdGhlIG9wZXJhdG9yLWFzc2lnbm1lbnQgbWVtYmVyIGZpcnN0IHRoZW4gdGhlIG9wZXJhdG9yIHVzaW5nIGl0OiAgXG5gYGBcbnN0ZDo6c3RyaW5nIG9wZXJhdG9yKyhjb25zdCBzdGQ6OnN0cmluZyAmYW1wOyBzLCBjb25zdCBzdGQ6OnN0cmluZyAmYW1wOyB0KSB7XG4gIHN0ZDo6c3RyaW5nIG91dCA9IHM7XG4gIG91dCArPSB0O1xuICByZXR1cm4gb3V0O1xufVxuYGBgXG4ifQ==---->"
+            ], 
+            "flags": 0, 
+            "guid": "stXKHB1W|U", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What does <code>explicit</code> mean on a constructor?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0ODQ5NTEsICJpZCI6ICIxNTA3NDgzODgxNzcwLTAwMCIsICJtZCI6ICJXaGF0IGRvZXMgYGV4cGxpY2l0YCBtZWFuIG9uIGEgY29uc3RydWN0b3I/XG4ifQ==---->", 
+                "That it will not be used to create objects implicitly or convert operands in expressions or function calls"
+            ], 
+            "flags": 0, 
+            "guid": "mYij*d8bBI", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What kinds of constructors do you want to mark <code>explicit</code>?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0ODQ5OTMsICJpZCI6ICIxNTA3NDg0OTUzMjM2LTAwMCIsICJtZCI6ICJXaGF0IGtpbmRzIG9mIGNvbnN0cnVjdG9ycyBkbyB5b3Ugd2FudCB0byBtYXJrIGBleHBsaWNpdGA/XG4ifQ==---->", 
+                "<p>Ones that define structure instead of contents (like <code>std::string::string(size_t)</code> vs <code>std::string::string(const char *)</code>)</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0ODUxOTIsICJpZCI6ICIxNTA3NDg0OTUzMjM2LTAwMSIsICJtZCI6ICJPbmVzIHRoYXQgZGVmaW5lIHN0cnVjdHVyZSBpbnN0ZWFkIG9mIGNvbnRlbnRzIChsaWtlIGBzdGQ6OnN0cmluZzo6c3RyaW5nKHNpemVfdClgIHZzIGBzdGQ6OnN0cmluZzo6c3RyaW5nKGNvbnN0IGNoYXIgKilgKVxuIn0=---->"
+            ], 
+            "flags": 0, 
+            "guid": "Ao2Ij!_-gl", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a conversion operator?", 
+                "An operator method that indicates how to convert a type to a target type."
+            ], 
+            "flags": 0, 
+            "guid": "qFr5o@]8l(", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a pointer?", 
+                "A value that represents the address of an object."
+            ], 
+            "flags": 0, 
+            "guid": "iSZgBcYWTA", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What are the types of <code>p</code> and <code>q</code> in <code>int* p, q;</code>?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc2MDMwNDksICJpZCI6ICIxNTA3NjAzMDAwODY5LTAwMCIsICJtZCI6ICJXaGF0IGFyZSB0aGUgdHlwZXMgb2YgYHBgIGFuZCBgcWAgaW4gYGludCogcCwgcTtgP1xuIn0=---->", 
+                "<p><code>p</code> is a pointer to int (also <code>*p</code> is an int) and <code>q</code> is an int.<br /></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc2MDMwNTAsICJpZCI6ICIxNTA3NjAzMDAwODY5LTAwMSIsICJtZCI6ICJgcGAgaXMgYSBwb2ludGVyIHRvIGludCAoYWxzbyBgKnBgIGlzIGFuIGludCkgYW5kIGBxYCBpcyBhbiBpbnQuXG4ifQ==---->"
+            ], 
+            "flags": 0, 
+            "guid": "P/`(=U~U<s", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What part of the definition is <code>*p</code> in <code>int *p</code>?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc2MDMwNjksICJpZCI6ICIxNTA3NjAzMDAwODcwLTAwMCIsICJtZCI6ICJXaGF0IHBhcnQgb2YgdGhlIGRlZmluaXRpb24gaXMgYCpwYCBpbiBgaW50ICpwYD9cbiJ9---->", 
+                "The declarator"
+            ], 
+            "flags": 0, 
+            "guid": "HjYl@@MU`R", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>How to get the address of an object <code>x</code>?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc2MDMwODQsICJpZCI6ICIxNTA3NjAzMDAwODcxLTAwMCIsICJtZCI6ICJIb3cgdG8gZ2V0IHRoZSBhZGRyZXNzIG9mIGFuIG9iamVjdCBgeGA/XG4ifQ==---->", 
+                "<p><code>&amp;x<br /></code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc2MDMwODUsICJpZCI6ICIxNTA3NjAzMDAwODcxLTAwMSIsICJtZCI6ICJgJmFtcDt4YFxuIn0=---->"
+            ], 
+            "flags": 0, 
+            "guid": "yhGld|Dbl<", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How to dereference a pointer `p`?", 
+                "`*p`"
+            ], 
+            "flags": 0, 
+            "guid": "oAA-kj(jx#", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What three operations are valid on functions?", 
+                "address-of, dereference, call"
+            ], 
+            "flags": 0, 
+            "guid": "g0!L2>[[:4", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What automatic translation happens with function pointers?", 
+                "Functions are automatically converted to pointers when not called, args that look like functions are converted to function pointers."
+            ], 
+            "flags": 0, 
+            "guid": "eZSo`;!vqs", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What manual specification still needs to be done for function pointers?", 
+                "When a function returns a function."
+            ], 
+            "flags": 0, 
+            "guid": "NaCt&~tv5=", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What type should be used to refer to the size of an array?", 
+                "`size_t` from `cstddef`"
+            ], 
+            "flags": 0, 
+            "guid": "Gb6Nwn>}G*", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What type should refer to the difference between pointers in an array? Why?", 
+                "`ptrdiff_t` in `cstddef`, because `size_t` is unsigned but the value may be negative"
+            ], 
+            "flags": 0, 
+            "guid": "F~4fvabYm$", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What kind of iterators are pointers similar to?", 
+                "Random-access iterators"
+            ], 
+            "flags": 0, 
+            "guid": "Jskg,aOA4U", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What restriction do arrays have that other general containers do not?", 
+                "Size must be known at compile-time."
+            ], 
+            "flags": 0, 
+            "guid": "DdG]c[$YVq", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Initialize a to be an array of `int`s of size 2.", 
+                "`int a[2];`"
+            ], 
+            "flags": 0, 
+            "guid": "I@3xv9GYQb", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is special about array initialization?", 
+                "We don't need to specify the size"
+            ], 
+            "flags": 0, 
+            "guid": "BruDVGpF;I", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Initialize `a` to be an array of `int`s with elements 1 and 2.", 
+                "`int a[] = {1, 2};`"
+            ], 
+            "flags": 0, 
+            "guid": "qhIk)nd5[:", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does `strlen` do?", 
+                "Counds the number of characters in a string literal not counting the null byte"
+            ], 
+            "flags": 0, 
+            "guid": "g;F<YXVW;r", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Convert from array `a` with length `l` to container `C c`.", 
+                "`C c(a, a + l);`"
+            ], 
+            "flags": 0, 
+            "guid": "w+q~SRYHz9", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does `static` mean for local variables?", 
+                "That the value is initialized only once and re-used."
+            ], 
+            "flags": 0, 
+            "guid": "m{d>3xCo75", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is `sizeof`?", 
+                "keyword/function that returns the size in bytes of the provided object."
+            ], 
+            "flags": 0, 
+            "guid": "l2Fet3*]P}", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are the arguments to `main`?", 
+                "`int argc, char** argv`"
+            ], 
+            "flags": 0, 
+            "guid": "D?~p+m,c:f", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the difference between `cerr` and `clog`?", 
+                "`cerr` is not buffered."
+            ], 
+            "flags": 0, 
+            "guid": "FgTe[0&w~=", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What classes are used for reading and writing files?", 
+                "`ifstream` and `ofstream`"
+            ], 
+            "flags": 0, 
+            "guid": "Gf9Se2LHS<", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How can you tell if a file exists?", 
+                "The boolean value of the corresponding stream object."
+            ], 
+            "flags": 0, 
+            "guid": "h$T2;>}vN^", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What is the difference between <code>new T</code> and <code>new T()</code>?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc2MDMyMzAsICJpZCI6ICIxNTA3NjAzMDAwODkxLTAwMCIsICJtZCI6ICJXaGF0IGlzIHRoZSBkaWZmZXJlbmNlIGJldHdlZW4gYG5ldyBUYCBhbmQgYG5ldyBUKClgP1xuIn0=---->", 
+                "The first is default-initialized, the latter is value-initialized."
+            ], 
+            "flags": 0, 
+            "guid": "EwUG5~J?nl", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does it mean to allocate something with `new`?", 
+                "Generate an address to an object whose lifetime persists until it is deleted with `delete`."
+            ], 
+            "flags": 0, 
+            "guid": "vIUe$s7%@A", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What can make arrays potentially expensive?", 
+                "The fact that initialization default-initializes all members."
+            ], 
+            "flags": 0, 
+            "guid": "A~(/?YpQo:", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is returned by `new T[n]`?", 
+                "A pointer to the first element of the array."
+            ], 
+            "flags": 0, 
+            "guid": "yn?JH)X9{L", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How can you release `a` from the statement `int a[] = new int[5]`?", 
+                "`delete[] a`"
+            ], 
+            "flags": 0, 
+            "guid": "y=`0lX)T)Z", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How can you release `a` from the statement `int a = new int`", 
+                "`delete a`"
+            ], 
+            "flags": 0, 
+            "guid": "tTtWx.&41_", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:10"
             ]
         }
     ]

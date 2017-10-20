@@ -1,7 +1,7 @@
 {
     "__type__": "Deck", 
     "activeTags": [
-        "chapter:10"
+        "chapter:11"
     ], 
     "children": [], 
     "crowdanki_uuid": "1421e040-9f3a-11e7-aa6f-704d7b26e6b3", 
@@ -98,7 +98,7 @@
             ], 
             "sortf": 0, 
             "tags": [
-                "chapter:12"
+                "chapter:13"
             ], 
             "tmpls": [
                 {
@@ -237,7 +237,8 @@
             "guid": "PPIsXi(^CU", 
             "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
             "tags": [
-                "definition"
+                "definition", 
+                "marked"
             ]
         }, 
         {
@@ -372,8 +373,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "What does const mean in a variable definition?", 
-                "It's a promise that we are not going to change the value of the variable for the rest of its lifetime."
+                "<p>What does <code>const</code> mean in a variable definition?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc5OTA4ODgsICJpZCI6ICIxNDkwNTQyMDcxNjgyLTAwMCIsICJtZCI6ICJXaGF0IGRvZXMgYGNvbnN0YCBtZWFuIGluIGEgdmFyaWFibGUgZGVmaW5pdGlvbj9cbiJ9---->", 
+                "It's a promise that we are not going to change the value of the variable in its scope."
             ], 
             "flags": 0, 
             "guid": "xuWR4c`[l)", 
@@ -720,7 +721,8 @@
             "guid": "P|Z.)Gk<f}", 
             "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
             "tags": [
-                "chapter:5"
+                "chapter:5", 
+                "marked"
             ]
         }, 
         {
@@ -1130,7 +1132,8 @@
             "guid": "t0_a@91Pel", 
             "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
             "tags": [
-                "chapter:6"
+                "chapter:6", 
+                "marked"
             ]
         }, 
         {
@@ -1278,7 +1281,7 @@
             "data": "", 
             "fields": [
                 "<p>Given an <code>is_even</code> function, filter out even numbers in <code>in</code> (so none are left) and put the result in <code>std::vector out</code>.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODcyMjIsICJpZCI6ICIxNTA0NjYyNjkzOTc3LTAwMCIsICJtZCI6ICJHaXZlbiBhbiBgaXNfZXZlbmAgZnVuY3Rpb24sIGZpbHRlciBvdXQgZXZlbiBudW1iZXJzIGluIGBpbmAgKHNvIG5vbmUgYXJlIGxlZnQpIGFuZCBwdXQgdGhlIHJlc3VsdCBpbiBgc3RkOjp2ZWN0b3Igb3V0YC5cbiJ9---->", 
-                "<p><code>std::remove_copy(in.begin(), in.end(), std::back_inserter(out), is_even)</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDczODcyMjQsICJpZCI6ICIxNTA0NjYyNjkzOTc3LTAwMSIsICJtZCI6ICJgc3RkOjpyZW1vdmVfY29weShpbi5iZWdpbigpLCBpbi5lbmQoKSwgc3RkOjpiYWNrX2luc2VydGVyKG91dCksIGlzX2V2ZW4pYFxuIn0=---->"
+                "<p><code>std::remove_copy_if(in.begin(), in.end(), std::back_inserter(out), is_even)</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDgwODM1OTcsICJpZCI6ICIxNTA0NjYyNjkzOTc3LTAwMSIsICJtZCI6ICJgc3RkOjpyZW1vdmVfY29weV9pZihpbi5iZWdpbigpLCBpbi5lbmQoKSwgc3RkOjpiYWNrX2luc2VydGVyKG91dCksIGlzX2V2ZW4pYFxuIn0=---->"
             ], 
             "flags": 0, 
             "guid": "K6t-6KrDnG", 
@@ -1306,7 +1309,7 @@
             "data": "", 
             "fields": [
                 "<p>What does <code>std::remove_if</code> do?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc1OTM3MTQsICJpZCI6ICIxNTA0NjYyODA3NjA3LTAwMCIsICJtZCI6ICJXaGF0IGRvZXMgYHN0ZDo6cmVtb3ZlX2lmYCBkbz9cbiJ9---->", 
-                "Moves matching elements to the front of the container and returns the new end iterator."
+                "Moves elements not satisfying the predicate to the front of the container and returns the new end iterator."
             ], 
             "flags": 0, 
             "guid": "m8(:d|Mk.h", 
@@ -1319,7 +1322,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "What is the basic associated container in C++?", 
+                "What is the basic associative container in C++?", 
                 "<p><code>std::map</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTIwMDMsICJpZCI6ICIxNTA3NDExOTc1OTYwLTAwMSIsICJtZCI6ICJgc3RkOjptYXBgXG4ifQ==---->"
             ], 
             "flags": 0, 
@@ -1663,7 +1666,8 @@
             "guid": "s/Rapn62=@", 
             "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
             "tags": [
-                "chapter:8"
+                "chapter:8", 
+                "marked"
             ]
         }, 
         {
@@ -1671,7 +1675,7 @@
             "data": "", 
             "fields": [
                 "What operations should input iterators support?", 
-                "<p><code>i++</code>, <code>++i</code>, <code>==</code>, <code>!=</code>, <code>*i</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc0MTQ3MjAsICJpZCI6ICIxNTA3NDE0Njg2ODUyLTAwMSIsICJtZCI6ICJgaSsrYCwgYCsraWAsIGA9PWAsIGAhPWAsIGAqaWBcbiJ9---->"
+                "<p><code>i++</code>, <code>++i</code>, <code>==</code>, <code>!=</code>, <code>*i</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDgwNzc2NzQsICJpZCI6ICIxNTA3NDE0Njg2ODUyLTAwMSIsICJtZCI6ICJgaSsrYCwgYCsraWAsIGA9PWAsIGAhPWAsIGAqaWBcbiJ9---->"
             ], 
             "flags": 0, 
             "guid": "J.0[S}?7s", 
@@ -1713,7 +1717,7 @@
             "data": "", 
             "fields": [
                 "What operations should a forward iterator support?", 
-                "All from input and output, plus supporting multi-pass"
+                "All operations from input and output, plus supporting multi-pass"
             ], 
             "flags": 0, 
             "guid": "i7dIH],`L?", 
@@ -1797,7 +1801,7 @@
             "data": "", 
             "fields": [
                 "What is the scope of member variables?", 
-                "The rest of the class body, all method bodies (including ones out of class body), default arguments, and in-class initializers."
+                "<ul>\n<li style=\"text-align: left; \">the rest of the class body</li>\n<li style=\"text-align: left; \">all method bodies (including ones defined out of class body)</li>\n<li style=\"text-align: left; \">default arguments</li>\n<li style=\"text-align: left; \">in-class initializers</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc5OTEwMjYsICJpZCI6ICIxNTA3NDc1ODczNDc0LTAwMSIsICJtZCI6ICIqIHRoZSByZXN0IG9mIHRoZSBjbGFzcyBib2R5XG4qIGFsbCBtZXRob2QgYm9kaWVzIChpbmNsdWRpbmcgb25lcyBkZWZpbmVkIG91dCBvZiBjbGFzcyBib2R5KVxuKiBkZWZhdWx0IGFyZ3VtZW50c1xuKiBpbi1jbGFzcyBpbml0aWFsaXplcnNcbiJ9---->"
             ], 
             "flags": 0, 
             "guid": "wxe39dGO.S", 
@@ -1838,7 +1842,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "How is a `const` member function declared?", 
+                "What is the syntax for declaring a `const` member function?", 
                 "`return-type function-name(arg-list) const`"
             ], 
             "flags": 0, 
@@ -1908,8 +1912,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "What proptection labels exist and what do they mean?", 
-                "`public` - anyone can access; `private` - the current class can access; `protected` - the current class and derived classes can access"
+                "What protection labels exist and what do they mean?", 
+                "<ul>\n<li style=\"text-align: left; \"><code>public</code> - anyone can access</li>\n<li style=\"text-align: left; \"><code>private</code> - the current class can access</li>\n<li style=\"text-align: left; \"><code>protected</code> - the current class and derived classes can access</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDgwNzcxMTAsICJpZCI6ICIxNTA3NDc2NzUyNDYyLTAwMSIsICJtZCI6ICIqIGBwdWJsaWNgIC0gYW55b25lIGNhbiBhY2Nlc3NcbiogYHByaXZhdGVgIC0gdGhlIGN1cnJlbnQgY2xhc3MgY2FuIGFjY2Vzc1xuKiBgcHJvdGVjdGVkYCAtIHRoZSBjdXJyZW50IGNsYXNzIGFuZCBkZXJpdmVkIGNsYXNzZXMgY2FuIGFjY2Vzc1xuIn0=---->"
             ], 
             "flags": 0, 
             "guid": "E5x[+Kel-Y", 
@@ -1978,7 +1982,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "What kind of initialization happens when an object is created in a `std::map`?", 
+                "<p>What kind of initialization happens when an object is created in a <code>std::map</code>?</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc5OTA5MzAsICJpZCI6ICIxNTA3NDc2OTQyNDMxLTAwMCIsICJtZCI6ICJXaGF0IGtpbmQgb2YgaW5pdGlhbGl6YXRpb24gaGFwcGVucyB3aGVuIGFuIG9iamVjdCBpcyBjcmVhdGVkIGluIGEgYHN0ZDo6bWFwYD9cbiJ9---->", 
                 "value-initialization"
             ], 
             "flags": 0, 
@@ -2104,7 +2108,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "How to avoid complexity when members depend on each other?", 
+                "How to avoid complexity in object initialization when members depend on each other?", 
                 "Use assignment in the constructor body"
             ], 
             "flags": 0, 
@@ -2272,7 +2276,7 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "What is the rule for the type of a function argument?", 
+                "What is the restriction on the type of an argument that may be passed to a function?", 
                 "It can be of any type convertible to the parameter type."
             ], 
             "flags": 0, 
@@ -2321,7 +2325,8 @@
             "guid": "mYij*d8bBI", 
             "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
             "tags": [
-                "chapter:12"
+                "chapter:12", 
+                "marked"
             ]
         }, 
         {
@@ -2454,8 +2459,8 @@
             "__type__": "Note", 
             "data": "", 
             "fields": [
-                "What manual specification still needs to be done for function pointers?", 
-                "When a function returns a function."
+                "In what situation do function pointers need to be specified as function pointers?", 
+                "When used as the return value of another function."
             ], 
             "flags": 0, 
             "guid": "NaCt&~tv5=", 
@@ -2756,6 +2761,919 @@
             "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
             "tags": [
                 "chapter:10"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the syntax for declaring a conversion operator?", 
+                "`operator type-name()`"
+            ], 
+            "flags": 0, 
+            "guid": "F^V288Y%to", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the general implicit conversion sequence?", 
+                "1. zero or one standard conversion<div>2. zero or one user-defined conversion</div><div>3. zero or one standard conversion</div>"
+            ], 
+            "flags": 0, 
+            "guid": "x(l%+W3gDF", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12", 
+                "cppref"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How does `std::cin` act as a truthy value? Why?", 
+                "It defines `operator void *`. Because `operator bool` would be convertible to int and standard conversion applied after `operator bool` would result in &nbsp;it being usable as an int, `void *` can only be converted to bool implicitly."
+            ], 
+            "flags": 0, 
+            "guid": "lv**)9,Apc", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Describe the three methods on strings that allow users to obtain the contents as a character array", 
+                "<ul>\n<li style=\"text-align: left; \"><code>c_str()</code> - returns <code>const char *</code> to a null-terminated array</li>\n<li style=\"text-align: left; \"><code>data()</code> - returns <code>const char *</code> to a non null-terminated array (until C++11) or does the same thing as <code>c_str()</code> (C++11)</li>\n<li style=\"text-align: left; \"><code>copy(char * dest, int count)</code> - copy up to <code>count</code> elements of contents to <code>dest</code></li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDc5OTQ2NzksICJpZCI6ICIxNTA3OTk0MTYyMjA1LTAwMSIsICJtZCI6ICIgICogYGNfc3RyKClgIC0gcmV0dXJucyBgY29uc3QgY2hhciAqYCB0byBhIG51bGwtdGVybWluYXRlZCBhcnJheVxuICAqIGBkYXRhKClgIC0gcmV0dXJucyBgY29uc3QgY2hhciAqYCB0byBhIG5vbiBudWxsLXRlcm1pbmF0ZWQgYXJyYXkgKHVudGlsIEMrKzExKSBvciBkb2VzIHRoZSBzYW1lIHRoaW5nIGFzIGBjX3N0cigpYCAoQysrMTEpXG4gICogYGNvcHkoY2hhciAqIGRlc3QsIGludCBjb3VudClgIC0gY29weSB1cCB0byBgY291bnRgIGVsZW1lbnRzIG9mIGNvbnRlbnRzIHRvIGBkZXN0YFxuIn0=---->"
+            ], 
+            "flags": 0, 
+            "guid": "bPIAs[ve>l", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:12"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a good way to start designing a class?", 
+                "Specifying the interface"
+            ], 
+            "flags": 0, 
+            "guid": "Q6Pj)*t}5L", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is one way to determine the right interface for a class?", 
+                "Look at the kinds of programs we want users to be able to write."
+            ], 
+            "flags": 0, 
+            "guid": "Fc^@t7+^gN", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11", 
+                "design"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the implication of instances of a class being initialized?", 
+                "They must have a default constructor."
+            ], 
+            "flags": 0, 
+            "guid": "wrRB/-YlHT", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11", 
+                "marked"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a side-effect of `new T[n]`?", 
+                "The contained `T` objects are default-initialized."
+            ], 
+            "flags": 0, 
+            "guid": "mu~GP!jKSQ", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "In what context does `explicit` make sense?", 
+                "On single-argument constructors."
+            ], 
+            "flags": 0, 
+            "guid": "d=4BuJf>Pw", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does `explicit` do?", 
+                "Prevents implicit conversion"
+            ], 
+            "flags": 0, 
+            "guid": "PD_r+w(yM)", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is required for `back_inserter` to work for a type `T`?", 
+                "`T::push_back` and `T::value_type`"
+            ], 
+            "flags": 0, 
+            "guid": "cy1]9+&Z2}", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How can operator functions be created?", 
+                "`operator` followed by the operator symbols."
+            ], 
+            "flags": 0, 
+            "guid": "g1B=9m)qZR", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What determines the number of arguments an operator function takes?", 
+                "Whether it is unary/binary, and whether it is a member function."
+            ], 
+            "flags": 0, 
+            "guid": "H#@L~,xX$=", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What operator function must be a member function?", 
+                "`operator[]`"
+            ], 
+            "flags": 0, 
+            "guid": "OPov-Fbr9r", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are examples where implicit copies are made?", 
+                "<ul>\n<li style=\"text-align: left; \">pass by value</li>\n<li style=\"text-align: left; \">return by value</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDgwODA1MjUsICJpZCI6ICIxNTA4MDgwMzIwMDE0LTAwMSIsICJtZCI6ICIqIHBhc3MgYnkgdmFsdWVcbiogcmV0dXJuIGJ5IHZhbHVlXG4ifQ==---->"
+            ], 
+            "flags": 0, 
+            "guid": "bI<Hlto^C]", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is an example of explicit copying?", 
+                "- assignment to new value, `T t = old_t;`"
+            ], 
+            "flags": 0, 
+            "guid": "vm32IP^=e2", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What controls the behavior of explicit and implicit copying?", 
+                "The copy constructor"
+            ], 
+            "flags": 0, 
+            "guid": "Nj?k4gdW:x", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the purpose of the copy constructor?", 
+                "To initialize a new object as a copy of an existing object of the same type."
+            ], 
+            "flags": 0, 
+            "guid": "H0,~dsD5Q%", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the declaration of the copy constructor of a type `T`?", 
+                "`T::T(const T&amp;)`"
+            ], 
+            "flags": 0, 
+            "guid": "c{V~Si0%w^", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is required in order to initialize a type `T` using `T t = val;`?", 
+                "`T` must have a copy constructor defined."
+            ], 
+            "flags": 0, 
+            "guid": "MU;w;dJv5@", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the declaration of the assignment operator for a type `T`?", 
+                "`T&amp; T::operator=(const T&amp;)`, where the return value is a reference to the left operand."
+            ], 
+            "flags": 0, 
+            "guid": "i<XUR/4y#C", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the difference between copying and assignment?", 
+                "assignment obliterates an existing value, replacing it with the operand. copying is creating a new object, the only doesn't need to be deallocated"
+            ], 
+            "flags": 0, 
+            "guid": "d>Ehm`a!O{", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What needs to be considered when making an assignment operator?", 
+                "self-assignment"
+            ], 
+            "flags": 0, 
+            "guid": "jSS+05d9gQ", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What shorthand is allowed inside the body of a template class `Type&lt;T&gt;` or definition/args of a template class member function?", 
+                "The class name `Type` refers to the whole `Type&lt;T&gt;`"
+            ], 
+            "flags": 0, 
+            "guid": "CE?jsVC(GC", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is one way to test for self-assignment?", 
+                "`&amp;rhs == this`"
+            ], 
+            "flags": 0, 
+            "guid": "jnsUpLzD-D", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the `this` keyword?", 
+                "A pointer to the current object, only valid inside member functions."
+            ], 
+            "flags": 0, 
+            "guid": "f;<Wg)AM`&", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When does initialization happen?", 
+                "<ul>\n<li style=\"text-align: left; \">Variable declarations</li>\n<li style=\"text-align: left; \">function parameters on entry to a function</li>\n<li style=\"text-align: left; \">The return value of a function on return from the function</li>\n<li style=\"text-align: left; \">In constructor initializers</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDgwODIwMDAsICJpZCI6ICIxNTA4MDgwMzIwMDI2LTAwMSIsICJtZCI6ICIqIFZhcmlhYmxlIGRlY2xhcmF0aW9uc1xuKiBmdW5jdGlvbiBwYXJhbWV0ZXJzIG9uIGVudHJ5IHRvIGEgZnVuY3Rpb25cbiogVGhlIHJldHVybiB2YWx1ZSBvZiBhIGZ1bmN0aW9uIG9uIHJldHVybiBmcm9tIHRoZSBmdW5jdGlvblxuKiBJbiBjb25zdHJ1Y3RvciBpbml0aWFsaXplcnNcbiJ9---->"
+            ], 
+            "flags": 0, 
+            "guid": "iV~DQ:q53{", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the difference between assignment and initialization?", 
+                "Assignment destroys the previous value, initialization creates a new object and gives it value."
+            ], 
+            "flags": 0, 
+            "guid": "d3kUWAnd/.", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When is a dynamically allocated object destroyed?", 
+                "When a pointer to the object is `delete`d"
+            ], 
+            "flags": 0, 
+            "guid": "AT}vEXYrNj", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>What methods are invoked on T in lines 2 and 3:</p>\n<div class=\"codehilite\" style=\"background: #f8f8f8\" align=\"left\"><pre style=\"line-height: 125%\">1 T get_T();\n2 T t;\n3 t = get_T();\n</pre></div><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDgwODIxNDEsICJpZCI6ICIxNTA4MDgwMzIwMDI5LTAwMCIsICJtZCI6ICJXaGF0IG1ldGhvZHMgYXJlIGludm9rZWQgb24gVCBpbiBsaW5lcyAyIGFuZCAzOlxuYGBgXG4xIFQgZ2V0X1QoKTtcbjIgVCB0O1xuMyB0ID0gZ2V0X1QoKTtcbmBgYFxuIn0=---->", 
+                "<p>Line 2 - constructor<br />\nLine 3 - a temporary T is copy-assigned with the value returned from <code>get_T</code>, then the assignment operator is called to overwrite t with that temporary.</p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDgwODIxNDYsICJpZCI6ICIxNTA4MDgwMzIwMDI5LTAwMSIsICJtZCI6ICJMaW5lIDIgLSBjb25zdHJ1Y3RvclxuTGluZSAzIC0gYSB0ZW1wb3JhcnkgVCBpcyBjb3B5LWFzc2lnbmVkIHdpdGggdGhlIHZhbHVlIHJldHVybmVkIGZyb20gYGdldF9UYCwgdGhlbiB0aGUgYXNzaWdubWVudCBvcGVyYXRvciBpcyBjYWxsZWQgdG8gb3ZlcndyaXRlIHQgd2l0aCB0aGF0IHRlbXBvcmFyeS5cbiJ9---->"
+            ], 
+            "flags": 0, 
+            "guid": "sswD.H9v`x", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the declaration of the destructor for a type T?", 
+                "`T::~T()`"
+            ], 
+            "flags": 0, 
+            "guid": "Fxb(?:CPxr", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the purpose of the destructor?", 
+                "To do any cleanup that should be done whenever an object goes away."
+            ], 
+            "flags": 0, 
+            "guid": "J-Be5O,Wx6", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the rule of three?", 
+                "A hint that if you have a copy constructor, destructor, or assignment operator then you probably need all three."
+            ], 
+            "flags": 0, 
+            "guid": "KjSS!_2df>", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is an `allocator`?", 
+                "A helper class for creating and initializing memory intended to hold objects of a specific type."
+            ], 
+            "flags": 0, 
+            "guid": "mT~ZI<^Wz{", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What headers is `allocator` in?", 
+                "`&lt;memory&gt;`"
+            ], 
+            "flags": 0, 
+            "guid": "K8/D+X$SFq", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Why doesn't the language have facilities for dealing with memory?", 
+                "Because there's too much variety in the types of memory available."
+            ], 
+            "flags": 0, 
+            "guid": "bQ^nQjX%={", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "<p>Describe the interface of <code>std::allocator&lt;T&gt;</code></p><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDgwODE3NzIsICJpZCI6ICIxNTA4MDgwMzIwMDM2LTAwMCIsICJtZCI6ICJEZXNjcmliZSB0aGUgaW50ZXJmYWNlIG9mIGBzdGQ6OmFsbG9jYXRvciZsdDtUJmd0O2BcbiJ9---->", 
+                "<p>Memory:</p>\n<ul>\n<li style=\"text-align: left; \"><code>T* allocate(size_t sz)</code> - allocate memory sufficient to store <code>sz</code> <code>T</code> objects</li>\n<li style=\"text-align: left; \"><code>void deallocate(T*, size_t)</code> - return allocated memory</li>\n</ul>\n<p>Creating objects:</p>\n<ul>\n<li style=\"text-align: left; \"><code>void construct(T*, const T&amp;)</code> - construct <code>T</code> in allocated space at pointer</li>\n<li style=\"text-align: left; \"><code>void destroy(T*)</code> - destroy <code>T</code> at pointer</li>\n<li style=\"text-align: left; \"><code>template&lt;class Out, class T&gt; void uninitialized_fill(Out, Out, const T&amp;)</code> - fill uninitialized space with copy of last argument</li>\n<li style=\"text-align: left; \"><code>template&lt;class In, class Out&gt; Out uninitialized_copy(In, In, Out)</code> - fill uninitialized space by copying provided range.</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDgwODE3OTksICJpZCI6ICIxNTA4MDgwMzIwMDM2LTAwMSIsICJtZCI6ICJNZW1vcnk6XG4gIFxuKiBgVCogYWxsb2NhdGUoc2l6ZV90IHN6KWAgLSBhbGxvY2F0ZSBtZW1vcnkgc3VmZmljaWVudCB0byBzdG9yZSBgc3pgIGBUYCBvYmplY3RzXG4qIGB2b2lkIGRlYWxsb2NhdGUoVCosIHNpemVfdClgIC0gcmV0dXJuIGFsbG9jYXRlZCBtZW1vcnlcbiAgXG5DcmVhdGluZyBvYmplY3RzOlxuICBcbiogYHZvaWQgY29uc3RydWN0KFQqLCBjb25zdCBUJmFtcDspYCAtIGNvbnN0cnVjdCBgVGAgaW4gYWxsb2NhdGVkIHNwYWNlIGF0IHBvaW50ZXJcbiogYHZvaWQgZGVzdHJveShUKilgIC0gZGVzdHJveSBgVGAgYXQgcG9pbnRlclxuKiBgdGVtcGxhdGUmbHQ7Y2xhc3MgT3V0LCBjbGFzcyBUJmd0OyB2b2lkIHVuaW5pdGlhbGl6ZWRfZmlsbChPdXQsIE91dCwgY29uc3QgVCZhbXA7KWAgLSBmaWxsIHVuaW5pdGlhbGl6ZWQgc3BhY2Ugd2l0aCBjb3B5IG9mIGxhc3QgYXJndW1lbnRcbiogYHRlbXBsYXRlJmx0O2NsYXNzIEluLCBjbGFzcyBPdXQmZ3Q7IE91dCB1bmluaXRpYWxpemVkX2NvcHkoSW4sIEluLCBPdXQpYCAtIGZpbGwgdW5pbml0aWFsaXplZCBzcGFjZSBieSBjb3B5aW5nIHByb3ZpZGVkIHJhbmdlLlxuIn0=---->"
+            ], 
+            "flags": 0, 
+            "guid": "LA|%-vT`R3", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:11"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is one way to think of inheritance?", 
+                "One class is like another, with extensions"
+            ], 
+            "flags": 0, 
+            "guid": "bH%FyYB]{&", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does it mean for a class `T` to derive publicly from `T2`?", 
+                "The public interface of `T2` is visible to users of objects of type `T`."
+            ], 
+            "flags": 0, 
+            "guid": "gAtzVVTC*L", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What can and can't a derived class do?", 
+                "<div>Can:</div><div><br /></div>* add members<div>* redefine members</div><div><br /></div><div>Can't:</div><div><br /></div><div>* delete members</div>"
+            ], 
+            "flags": 0, 
+            "guid": "Pw=R_F@zX_", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What base class members are not inherited in a derived class?", 
+                "Constructor, destructor, assignment operator"
+            ], 
+            "flags": 0, 
+            "guid": "BY!=+&-36Q", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How can an explicit call to a base function be made in a derived class?", 
+                "Qualifying the name of the function with the class name."
+            ], 
+            "flags": 0, 
+            "guid": "fxIqz$cUTO", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What are the steps of construction for a derived class?", 
+                "<ul>\n<li style=\"text-align: left; \">Allocate space for the whole object</li>\n<li style=\"text-align: left; \">Call base-class constructor</li>\n<li style=\"text-align: left; \">Execute derived class constructor initializer</li>\n<li style=\"text-align: left; \">Execute derived class constructor body</li>\n</ul><!----SBAdata:eyJpc2NvbnZlcnRlZCI6ICJUcnVlIiwgImxhc3Rtb2RpZmllZCI6IDE1MDgwODYwNTUsICJpZCI6ICIxNTA4MDg1NzQ5NDUxLTAwMSIsICJtZCI6ICIqIEFsbG9jYXRlIHNwYWNlIGZvciB0aGUgd2hvbGUgb2JqZWN0XG4qIENhbGwgYmFzZS1jbGFzcyBjb25zdHJ1Y3RvclxuKiBFeGVjdXRlIGRlcml2ZWQgY2xhc3MgY29uc3RydWN0b3IgaW5pdGlhbGl6ZXJcbiogRXhlY3V0ZSBkZXJpdmVkIGNsYXNzIGNvbnN0cnVjdG9yIGJvZHlcbiJ9---->"
+            ], 
+            "flags": 0, 
+            "guid": "ztX^A1uRl$", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How can you specify the base constructor to be executed for a derived class?", 
+                "In the constructor initializer"
+            ], 
+            "flags": 0, 
+            "guid": "u.&<VN4Bwn", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What base constructor is executed if none is specified in a derived constructor initializer?", 
+                "The default base constructor"
+            ], 
+            "flags": 0, 
+            "guid": "H;I=p?Kc_^", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "To what types can `T&amp;` be bound?", 
+                "`T` and any derived types."
+            ], 
+            "flags": 0, 
+            "guid": "qfJSpkCXqv", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "To what types can `T*` be bound?", 
+                "Pointers to `T` and any derived types"
+            ], 
+            "flags": 0, 
+            "guid": "qPBC4v=KvV", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What happens to a derived object when passed by value to a function expecting the base?", 
+                "Only the base part of the object is copied to the parameter."
+            ], 
+            "flags": 0, 
+            "guid": "lX2mKf#+sq", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How do you define a virtual function?", 
+                "Virtual keyword on the declaration in the class body, no virtual keyword on the definition outside the class body."
+            ], 
+            "flags": 0, 
+            "guid": "q<7/Y.%xL~", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When are the actual types of reference and pointer parameters known?", 
+                "Run-time"
+            ], 
+            "flags": 0, 
+            "guid": "mu:>I:,ziV", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a virtual function?", 
+                "A member function whose actual address is identified at runtime based on object type."
+            ], 
+            "flags": 0, 
+            "guid": "Jy4q8pwo$$", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the difference between an object and a reference/pointer?", 
+                "The type of an object is known at compile time"
+            ], 
+            "flags": 0, 
+            "guid": "F=SC^rlER?", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What does it mean for a function to be bound?", 
+                "Its usage is linked with its implementation"
+            ], 
+            "flags": 0, 
+            "guid": "c(e8!&>o5u", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "In what situations is a function statically bound? When does the binding happen?", 
+                "When it is called on an object, at compile time"
+            ], 
+            "flags": 0, 
+            "guid": "9YAvD$!R@", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "In what situations is a function dynamically bound? When does it happen?", 
+                "When a virtual function is called through a pointer or reference. Run-time"
+            ], 
+            "flags": 0, 
+            "guid": "LxkL(GJ=>D", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is polymorphism?", 
+                "One type standing in for many types"
+            ], 
+            "flags": 0, 
+            "guid": "FN[$<48d?%", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When is a virtual destructor needed?", 
+                "Any time a derived class may be deleted with a pointer to the base class."
+            ], 
+            "flags": 0, 
+            "guid": "dA<Y[JLpJl", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What happens automatically on destruction, even with an empty destructor?", 
+                "Destructors called on members"
+            ], 
+            "flags": 0, 
+            "guid": "CCOj1IlW86", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "Why don't we need to declare a virtual destructor in a derived class if the destructor is declared virtual in the base class?", 
+                "The fact that the destructor is virtual is inherited"
+            ], 
+            "flags": 0, 
+            "guid": "O8KX&)8@rz", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is a handle class?", 
+                "A programming technique for providing a single interface over multiple types.<div>- keeps pointer to object alive while it is alive</div><div>- delegates methods to pointer</div>"
+            ], 
+            "flags": 0, 
+            "guid": "F=Rb6V5^cd", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What is the scope of a static member function?", 
+                "The class it is defined in"
+            ], 
+            "flags": 0, 
+            "guid": "gVIgihW~bY", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "When can an overridden virtual function have a different return type in a derived class?", 
+                "When the base class returned a pointer/reference to base the derived class can return a pointer/reference to the derived type."
+            ], 
+            "flags": 0, 
+            "guid": "IH=+f=PTEV", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "What happens when trying to store a derived object in a container initialized with a base type?", 
+                "The base part of the derived object is stored in the container"
+            ], 
+            "flags": 0, 
+            "guid": "QSg[y)cQwo", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How can a virtual function be hidden in a base class?", 
+                "By defining a member with the same name but different parameter types/number"
+            ], 
+            "flags": 0, 
+            "guid": "u>/!Ob-NRE", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
+            ]
+        }, 
+        {
+            "__type__": "Note", 
+            "data": "", 
+            "fields": [
+                "How can you call a base class function on a reference to the derived class?", 
+                "`r.Base::function_name`"
+            ], 
+            "flags": 0, 
+            "guid": "AF#`}#BlLh", 
+            "note_model_uuid": "1421e044-9f3a-11e7-aa6f-704d7b26e6b3", 
+            "tags": [
+                "chapter:13"
             ]
         }
     ]
